@@ -10,3 +10,18 @@ body {
 
 }
 
+#presentation 
+{
+
+  padding-top: 50px;
+
+}
+
+
+.presentation
+{
+
+    <div class="row">;
+      <div class="col-sm-4">largeur 4</div>;
+      <div class="col-sm-8">largeur 8</div>;
+}
