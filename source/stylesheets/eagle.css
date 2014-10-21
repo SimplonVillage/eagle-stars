@@ -1,9 +1,16 @@
 @font-face{
-	font-family: "Manue";
-	src:url("Manue");
+	font-family: "Champ";
+	src:url("Champ.ttf");
 }
 
-.presentation {
+
+body {
+	font-family: "Champ";
+	font-size: 18px;
+
+}
+
+
 	text-align: right;
 	text-indent: right;
 	
