@@ -1,8 +1,9 @@
+/**********************police**********************/
 @font-face{
 	font-family: "Champ";
 	src:url("Champ.ttf");
 }
-
+/**************************************************/
 
 #left, #right
 {
@@ -25,12 +26,14 @@
   border:solid #333331 25px;
 }
 
+
 body {
-	font-family:"Champ";
-	font-size: 18px;
-  background-color: #06DA14;
-  padding-top: 200px;
-  
+  margin-left: 10px;  
+	font-family: "Champ";
+	font-size: 16px;
+  background-color: #FFF4FF;
+  padding-top: 80px;
+  text-align: justify;   
 }
 
 #presentation 
