@@ -11,16 +11,6 @@
   <%= stylesheet_link_tag "bootstrap.min", "eagle", "bootstrap-theme.min"  %>
   <%= javascript_include_tag  "all" %> 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> effbc1fff2fdee784c022c219c3db05fd90cdb42
-  <%= javascript_include_tag  "all" %>
-
-  <link href="../stylesheet/bootstrap.min.css" rel="stylesheet" />
-
-  <link href="EagleStars/depot/eagle-stars/source/stylesheet/bootstrap-theme.min.css" rel="stylesheet" />
-  <!--<link type="text/css" rel="stylesheet" href="EagleStars/depot/eagle-stars/source/stylesheets/"-->
 
 </head>
 
@@ -45,60 +35,63 @@
   </div>
        
   <div class="container"> 
-  <div class="row"> 
-    <div class="boite"> 
-      <div id="moncarrousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators"> 
-          <li data-target="#moncarrousel" data-slide-to="0" 
-class="active"></li> 
-          <li data-target="#moncarrousel" data-slide-to="1"></li> 
-          <li data-target="#moncarrousel" data-slide-to="2"></li> 
-          <li data-target="#moncarrousel" data-slide-to="3"></li> 
-        </ol> 
-        <div class="carousel-inner"> 
-          <div class="item active"> 
-            <p><img src="../images/PhotoPageHomePage.JPG" alt="Home Page" class="img-responsive"></p> 
-            <div class="carousel-caption"><p>Home Page 2</p></div> 
+    <div class="row"> 
+      <div class="boite"> 
+        <div id="moncarrousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators"> 
+            <li data-target="#moncarrousel" data-slide-to="0" 
+  class="active"></li> 
+            <li data-target="#moncarrousel" data-slide-to="1"></li> 
+            <li data-target="#moncarrousel" data-slide-to="2"></li> 
+            <li data-target="#moncarrousel" data-slide-to="3"></li> 
+          </ol> 
+          <div class="carousel-inner"> 
+            <div class="item active"> 
+              <p><img src="../images/PhotoPageHomePage.JPG" alt="Home Page" class="img-responsive"></p> 
+              <div class="carousel-caption"><p>Home Page 2</p></div> 
+            </div> 
+            <div class="item"> 
+              <p><img src="../images/StFrancoisLivres20140826.jpg" alt="St François" class="img-responsive"></p> 
+              <div class="carousel-caption"><p>St François</p></div> 
+            </div> 
+            <div class="item"> 
+              <p><img src="../images/PhotoPageHomePage.JPG" alt="Home Page" class="img-responsive"></p> 
+              <div class="carousel-caption"><p>Home Page 2</p></div> 
+            </div> 
+            <div class="item"> 
+              <p><img src="../images/ToursEnSavoie201406.jpg" alt="Tours en Savoie" class="img-responsive"></p> 
+              <div class="carousel-caption"><p>Tours en Savoie 2014</p></div> 
+            </div> 
           </div> 
-          <div class="item"> 
-            <p><img src="../images/StFrancoisLivres20140826.jpg" alt="St François" class="img-responsive"></p> 
-            <div class="carousel-caption"><p>St François</p></div> 
-          </div> 
-          <div class="item"> 
-            <p><img src="../images/PhotoPageHomePage.JPG" alt="Home Page" class="img-responsive"></p> 
-            <div class="carousel-caption"><p>Home Page 2</p></div> 
-          </div> 
-          <div class="item"> 
-            <p><img src="../images/ToursEnSavoie201406.jpg" alt="Tours en Savoie" class="img-responsive"></p> 
-            <div class="carousel-caption"><p>Tours en Savoie 2014</p></div> 
-          </div> 
+          <a class="left carousel-control" href="#moncarrousel" data-slide="prev"> 
+          <span class="glyphicon glyphicon-chevron-left"></span> 
+          </a> 
+          <a class="right carousel-control" href="#moncarrousel" 
+        data-slide="next"> 
+          <span class="glyphicon glyphicon-chevron-right"></span> 
+          </a> 
         </div> 
-        <a class="left carousel-control" href="#moncarrousel" data-slide="prev"> 
-        <span class="glyphicon glyphicon-chevron-left"></span> 
-        </a> 
-        <a class="right carousel-control" href="#moncarrousel" 
-      data-slide="next"> 
-        <span class="glyphicon glyphicon-chevron-right"></span> 
-        </a> 
       </div> 
     </div> 
-  </div> 
-</div>
-    <%= yield %>
+  </div>
 
-<footer>
-	<div class="navbar navbar-default navbar-static-bottom"> 
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <footer>
+  	<div class="navbar navbar-default navbar-static-bottom"> 
     	<div class="container">
 		  	<div class="collapse navbar-collapse">
-				<p class="navbar-text pull-left">Identification R.N.A W613001181</p>
-				<p class="navbar-text pull-right">&copy;2014 <a href="http://getbootstrap.com">Eagle Stars</a></p>
-      		</div>
+  				<p class="navbar-text pull-left">Identification R.N.A W613001181</p>
+  				<p class="navbar-text pull-right">&copy;2014 <a href="http://getbootstrap.com">Eagle Stars</a></p>
+      	</div>
     	</div>
-  	</div>
-</footer>
+    </div>
+  </footer>
 
-<script src="../javascripts/jquery-1.11.1.min.js" type="text/javascript"></script> 
-<script src="../javascripts/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-1.11.1.min.js" type="text/javascript"></script> 
+  <script src="../javascripts/bootstrap.min.js" type="text/javascript"></script>
 
 </body>
 </html>
