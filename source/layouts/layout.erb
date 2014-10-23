@@ -7,9 +7,11 @@
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
   <!-- Use title if it's in the page YAML frontmatter -->
   <title><%= current_page.data.title || "Eagle Stars" %></title>
-  <!--<%= stylesheet_link_tag "bootstrapp", "eagle", "eaglestars" %>-->
-  <link type="text/css" rel="stylesheet" href="../stylesheets/bootstrapp.css">
+  
+  <%= stylesheet_link_tag "bootstrap.min", "eagle", "eaglestars", "bootstrap-theme.min"  %>
+  <%= javascript_include_tag  "all" %> 
 
+<<<<<<< HEAD
   <%= javascript_include_tag  "all" %>
 
 
@@ -17,6 +19,8 @@
 
   <link href="EagleStars/depot/eagle-stars/source/stylesheet/bootstrap-theme.min.css" rel="stylesheet" />
   <!--<link type="text/css" rel="stylesheet" href="EagleStars/depot/eagle-stars/source/stylesheets/"-->
+=======
+>>>>>>> aa82adcbf6786bb597e357a56a00e612924062de
 </head>
 
 <body class="<%= page_classes %>"> 
@@ -86,7 +90,7 @@ class="active"></li>
     	<div class="container">
 		  	<div class="collapse navbar-collapse">
 				<p class="navbar-text pull-left">Identification R.N.A W613001181</p>
-				<p class="navbar-text pull-right">&copy;2014 <a href="http://getbootstrap.com">Bootstrap</a></p>
+				<p class="navbar-text pull-right">&copy;2014 <a href="http://getbootstrap.com">Eagle Stars</a></p>
       		</div>
     	</div>
   	</div>
