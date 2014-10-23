@@ -3,24 +3,53 @@
 	font-family: "Champ";
 	src:url("Champ.ttf");
 }
+/**************************************************/
+
 
 body {
-  margin-left: 10px;  
+  
 	font-family: "Champ";
 	font-size: 16px;
   background-color: #FFF4FF;
   padding-top: 80px;
-  text-align: justify;   
+  text-align: justify;
+  overflow-x: hidden;
+
 }
 
-#presentation 
-{
-  
+.row {
+  img {
+    width: 100%;
+  }
 }
 
-h1
-{
-  font-size: 20px;
+#equipe {
+  background-color: #A8D9A0;
+  h2 {
+    margin-top: 0;
+  }
+  .animatrice {
+    margin-top: 25px;
+    img {
+      width: 60%;
+      float: right;
+    }
+  }
+}
+
+#association {
+  background-color: #A8D9A0;
+
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+h2 {
+  font-size: 22px;
+  font-weight: 700;
 }
 
 p
@@ -30,6 +59,26 @@ p
 
 .boite
 {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
 }
+
+.container
+{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.navbar-header img
+{
+  height: 30%;
+  width: 50%;
+  margin-top: 0px;
+}
+
+.puce
+{
+  list-style-type: none;
+}
+
+
