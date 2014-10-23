@@ -11,12 +11,6 @@
   <%= stylesheet_link_tag "bootstrap.min", "eagle", "bootstrap-theme.min"  %>
   <%= javascript_include_tag  "all" %> 
 
-  <%= javascript_include_tag  "all" %>
-
-  <link href="../stylesheet/bootstrap.min.css" rel="stylesheet" />
-
-  <link href="EagleStars/depot/eagle-stars/source/stylesheet/bootstrap-theme.min.css" rel="stylesheet" />
-  <!--<link type="text/css" rel="stylesheet" href="EagleStars/depot/eagle-stars/source/stylesheets/"-->
 
 </head>
 
@@ -80,23 +74,25 @@ class="active"></li>
         </a> 
       </div> 
     </div> 
-  </div> 
-</div>
-    <%= yield %>
+  </div>
 
-<footer>
-	<div class="navbar navbar-default navbar-static-bottom"> 
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <footer>
+  	<div class="navbar navbar-default navbar-static-bottom"> 
     	<div class="container">
 		  	<div class="collapse navbar-collapse">
-				<p class="navbar-text pull-left">Identification R.N.A W613001181</p>
-				<p class="navbar-text pull-right">&copy;2014 <a href="http://getbootstrap.com">Eagle Stars</a></p>
-      		</div>
+  				<p class="navbar-text pull-left">Identification R.N.A W613001181</p>
+  				<p class="navbar-text pull-right">&copy;2014 <a href="http://getbootstrap.com">Eagle Stars</a></p>
+      	</div>
     	</div>
-  	</div>
-</footer>
+    </div>
+  </footer>
 
-<script src="../javascripts/jquery-1.11.1.min.js" type="text/javascript"></script> 
-<script src="../javascripts/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery-1.11.1.min.js" type="text/javascript"></script> 
+  <script src="../javascripts/bootstrap.min.js" type="text/javascript"></script>
 
 </body>
 </html>
