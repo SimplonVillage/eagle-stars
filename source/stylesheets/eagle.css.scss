@@ -5,26 +5,6 @@
 }
 /**************************************************/
 
-#left, #right
-{
-  background-color:#000000;
-  height:150px;
-  border:solid #333331 5px;
-}
-
-#picless, #pic, #picmore
-{
-  background-color:#333331;
-  height:150px;
-  text-align: center;
-}
-
-#picless img, #pic img , #picmore img
-{
-  height: 100%;
-  width: 100%;
-  border:solid #333331 25px;
-}
 
 body {
   
@@ -71,4 +51,10 @@ h2 {
 p
 {
   font-size: 20px;
+}
+
+.boite
+{
+  height: 300px;
+  width: 300px;
 }
