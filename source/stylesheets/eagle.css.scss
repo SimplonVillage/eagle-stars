@@ -4,16 +4,38 @@
 }
 
 
+#left, #right
+{
+  background-color:#000000;
+  height:150px;
+  border:solid #333331 5px;
+}
+
+#picless, #pic, #picmore
+{
+  background-color:#333331;
+  height:150px;
+  text-align: center;
+}
+
+#picless img, #pic img , #picmore img
+{
+  height: 100%;
+  width: 100%;
+  border:solid #333331 25px;
+}
+
 body {
 	font-family:"Champ";
 	font-size: 18px;
   background-color: #06DA14;
+  padding-top: 200px;
   
 }
 
 #presentation 
 {
-   padding-top:200px; 
+  
 }
 
 h1
