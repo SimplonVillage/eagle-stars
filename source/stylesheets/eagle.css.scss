@@ -1,14 +1,14 @@
 /**********************police**********************/
 @font-face{
-	font-family: "Champ";
-	src:url("Champ.ttf");
+	font-family: "Kraskarioitalic";
+	src:url("Kraskarioitalic.ttf"); 
 }
 /**************************************************/
 
 
 body {
   
-	font-family: "Champ";
+	font-family: "Kraskarioitalic";
 	font-size: 16px;
   background-color: #FFF4FF;
   padding-top: 80px;
@@ -92,6 +92,12 @@ p
 .puce
 {
   list-style-type: none;
+
+}
+
+#Rna
+{
+  font-size:15px;
 }
 
 
