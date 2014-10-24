@@ -75,23 +75,32 @@ p
 
 .boite
 {
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 800px;
   margin : 0 auto;
+  margin-top: 20px;
+}
 
 .navbar-header img
 {
-  height: 30%;
-  width: 50%;
-  margin-top: 0px;
+  height: 20%;
+  width: 20%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .puce
 {
   list-style-type: none;
 }
+
 .adresse{
   padding-top: 50px;
+}
+
+ul
+{
+  font-size: 22px;
 }
 
 
