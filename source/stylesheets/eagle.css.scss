@@ -23,6 +23,16 @@ body {
   }
 }
 
+#presentation {
+  h1{
+    text-align: center;
+  }
+  p{
+    font-size: 18px;
+  }
+}
+
+
 #equipe {
   background-color: #A8D9A0;
   h2 {
@@ -57,12 +67,17 @@ p
   font-size: 20px;
 }
 
+#moncarrousel
+{
+  margin: 0 auto;
+  width: 40%;
+}
+
 .boite
 {
   height: 350px;
   width: 350px;
   margin : 0 auto;
-}
 
 .navbar-header img
 {
@@ -75,7 +90,9 @@ p
 {
   list-style-type: none;
 }
-
+.adresse{
+  padding-top: 50px;
+}
 
 
 
