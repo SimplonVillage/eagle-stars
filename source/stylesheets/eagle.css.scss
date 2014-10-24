@@ -23,10 +23,18 @@ body {
   }
 }
 
-#equipe {
-  h1 {
-    margin-bottom: 25px;
+#presentation {
+  h1{
+    text-align: center;
   }
+  p{
+    font-size: 18px;
+  }
+}
+
+
+#equipe {
+  background-color: #A8D9A0;
   h2 {
     margin-top: 0;
   }
@@ -39,9 +47,15 @@ body {
   }
 }
 
+#association {
+  background-color: #A8D9A0;
+
+}
+
 h1 {
   font-size: 28px;
   font-weight: 700;
+  margin-bottom: 25px;
 }
 h2 {
   font-size: 22px;
@@ -53,8 +67,31 @@ p
   font-size: 20px;
 }
 
+
+#moncarrousel
+{
+  margin: 0 auto;
+  width: 40%;
+}
+
+
 .boite
 {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
+
 }
+
+.navbar-header img
+{
+  height: 30%;
+  width: 50%;
+  margin-top: 0px;
+}
+
+.puce
+{
+  list-style-type: none;
+}
+
+
