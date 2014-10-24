@@ -67,26 +67,32 @@ p
   font-size: 20px;
 }
 
-
 #moncarrousel
 {
   margin: 0 auto;
   width: 40%;
 }
 
-
 .boite
 {
+<<<<<<< HEAD
+  height: 250px;
+  width: 800px;
+  margin : 0 auto;
+  margin-top: 20px;
+=======
   height: 350px;
   width: 350px;
-
+  margin : 0 auto
+>>>>>>> a4a228092d5979b1af1b3877a59697db68f4baaa
 }
 
 .navbar-header img
 {
-  height: 30%;
-  width: 50%;
-  margin-top: 0px;
+  height: 20%;
+  width: 20%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .puce
@@ -99,5 +105,15 @@ p
 {
   font-size:15px;
 }
+
+.adresse{
+  padding-top: 50px;
+}
+
+ul
+{
+  font-size: 22px;
+}
+
 
 
