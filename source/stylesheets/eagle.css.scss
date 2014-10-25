@@ -1,15 +1,15 @@
 /**********************police**********************/
 @font-face{
-	font-family: "Champ";
-	src:url("Champ.ttf");
+	font-family: "Kraskarioitalic";
+	src:url("Kraskarioitalic.ttf"); 
 }
 /**************************************************/
 
 
 body {
   
-	font-family: "Champ";
-	font-size: 16px;
+	font-family: "Kraskarioitalic";
+	font-size: 20px;
   background-color: #FFF4FF;
   padding-top: 80px;
   text-align: justify;
@@ -23,13 +23,31 @@ body {
   }
 }
 
-#presentation {
-  h1{
-    text-align: center;
-  }
-  p{
-    font-size: 18px;
-  }
+h1
+{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+
+
+
+#presentation
+ 
+
+#association
+{
+  background-color: #A8D9A0;
+  font-size: 20px;
+
+
 }
 
 
@@ -47,30 +65,17 @@ body {
   }
 }
 
-#association {
-  background-color: #A8D9A0;
-
-}
-
-h1 {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 25px;
-}
-h2 {
-  font-size: 22px;
-  font-weight: 700;
-}
-
-p
+#ateliers
 {
-  font-size: 20px;
+  ul{
+  font-size: 22px;
+  }
 }
 
 #moncarrousel
 {
   margin: 0 auto;
-  width: 40%;
+  width: 120%;
 }
 
 .boite
@@ -79,6 +84,9 @@ p
   width: 800px;
   margin : 0 auto;
   margin-top: 20px;
+  height: 350px;
+  width: 350px;
+  margin : 0 auto
 }
 
 .navbar-header img
@@ -97,16 +105,19 @@ p
 .puce
 {
   list-style-type: none;
+
+}
+
+#Rna
+{
+  font-size:15px;
 }
 
 .adresse{
   padding-top: 50px;
 }
 
-ul
-{
-  font-size: 22px;
-}
+
 
 
 
