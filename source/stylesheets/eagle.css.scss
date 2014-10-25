@@ -12,7 +12,6 @@ body {
 	font-size: 20px;
   background-color: #FFF4FF;
   padding-top: 80px;
-  text-align: justify;
   overflow-x: hidden;
 
 }
@@ -40,6 +39,13 @@ h2 {
 
 
 #presentation
+{
+  text-align: justify;  
+    h2{
+      background-color: #81DAF5;
+      text-align: center;
+    }
+}
  
 
 #association
