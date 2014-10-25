@@ -14,10 +14,19 @@
 
 </head>
 
-<body class="<%= page_classes %>"> 
-  <div class="container"> 
+<body class="<%= page_classes %>">
+<!-- Conteneur principal --> 
+  <div class="container">
+<!-- Barre de navigation -->    
     <div class="row"> 
       <div class="navbar navbar-default navbar-fixed-top">
+<!-- Bouton apparaissant sur les résolutions mobiles -->
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span> 
+        </a>      
+<!-- Structure du menu -->        
         <div class="collapse navbar-collapse"> 
           <ul class="nav navbar-nav"> 
              <li><a href="#">Accueil</a></li> 
@@ -26,8 +35,8 @@
              <li><a href="#">Planning</a></li>
              <li><a href="#">Galerie photo</a></li>
           </ul>
-            <div>
-              <p class="navbar-header puce"><img src="images/drapeauxcadre1.jpeg" alt="drapeau temporaire" /></p>
+            <div class="navbar-header puce">
+              <p class="navbar-brand"><img src="images/drapeauxcadre1.jpeg" alt="drapeau temporaire" /></p>
             </div>  
           <ul class="nav navbar-nav navbar-right"> 
             <li><a href="mailto:enireves.carre@gmail.com">Contact</a></li> 

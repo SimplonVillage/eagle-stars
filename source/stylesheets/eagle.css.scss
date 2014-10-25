@@ -35,9 +35,6 @@ h2 {
   font-weight: 700;
 }
 
-
-
-
 #presentation
 {
   text-align: justify;  
@@ -71,7 +68,7 @@ h2 {
 }
 
 
-#ateliers{
+#ateliers {
   ul{
   font-size: 22px;
   }
@@ -83,22 +80,27 @@ h2 {
   width: 120%;
 }
 
-.boite{
+
+.boite {
   height: 250px;
+
+  /*height: 250px;*/
+
   width: 800px;
   margin : 0 auto;
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
   height: 350px;
   width: 350px;
-  margin : 0 auto
 }
 
 .navbar-header img
 {
-  height: 20%;
-  width: 20%;
+  height: 100%;
+  width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 /*.navbar
