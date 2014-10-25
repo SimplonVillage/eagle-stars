@@ -52,8 +52,6 @@ h2 {
 {
   background-color: #A8D9A0;
   font-size: 20px;
-
-
 }
 
 
@@ -62,17 +60,18 @@ h2 {
   h2 {
     margin-top: 0;
   }
-  .animatrice {
-    margin-top: 25px;
-    img {
+
+.animatrice
+{
+  margin-top: 25px  
+   img{
       width: 60%;
       float: right;
-    }
-  }
+      }  
 }
 
-#ateliers
-{
+
+#ateliers{
   ul{
   font-size: 22px;
   }
@@ -84,8 +83,7 @@ h2 {
   width: 120%;
 }
 
-.boite
-{
+.boite{
   height: 250px;
   width: 800px;
   margin : 0 auto;
@@ -108,23 +106,14 @@ h2 {
   background-color: #A8D9A0;
 }*/
 
-.puce
-{
+.puce {
   list-style-type: none;
-
 }
 
-#Rna
-{
+#Rna {
   font-size:15px;
 }
 
-.adresse{
+#adresse {
   padding-top: 50px;
 }
-
-
-
-
-
-
