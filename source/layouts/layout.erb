@@ -11,22 +11,29 @@
   <%= stylesheet_link_tag "bootstrap.min", "eagle", "bootstrap-theme.min"  %>
   <%= javascript_include_tag  "all" %> 
 
-
+ 
 </head>
 
 <body class="<%= page_classes %>">
-<!-- Conteneur principal --> 
-  <div class="container">
-<!-- Barre de navigation -->    
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">L'équipe</a></li>
+        <li><a href="#">Ateliers</a></li>
+        <li><a href="#">Planning</a></li>
+        <li><a href="#">Galerie photo</a></li>
+        <li><img src="images/drapeauxcadre1.jpeg" alt="drapeau temporaire" /></li>
+        <li><a href="#" class="right">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- <div class="container">
+    
     <div class="row"> 
       <div class="navbar navbar-default navbar-fixed-top">
-<!-- Bouton apparaissant sur les résolutions mobiles -->
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-        <span class="icon-bar"></span> 
-        </a>      
-<!-- Structure du menu -->        
+       
         <div class="collapse navbar-collapse"> 
           <ul class="nav navbar-nav"> 
              <li><a href="#">Accueil</a></li> 
@@ -44,8 +51,8 @@
         </div> 
       </div>
     </div> 
-  </div>
-       
+  </div> -->
+
   <div class="container"> 
     <div class="row"> 
     <div class="text-center"> 
@@ -89,13 +96,17 @@
   </div>
 
   <footer>
-    <div>
+    <div class="mailto">
+        <a href="mailto:enireves.carre@gmail.com"> Contactez-nous </a>
+    </div>
+
+    <!--<div>
       <p>
         <button type="button" class="btn btn-default btn-lg btn-block">
           <a href="mailto:enireves.carre@gmail.com"> Contactez-nous </a>
         </button>
       </p>  
-    </div>
+    </div>-->
   	<div class="navbar navbar-default navbar-static-bottom"> 
     	<div class="container">
 		  	<div class="collapse navbar-collapse">
