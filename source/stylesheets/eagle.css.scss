@@ -55,17 +55,18 @@ h2 {
   h2 {
     margin-top: 0;
   }
-  .animatrice {
-    margin-top: 25px;
-    img {
+
+.animatrice
+{
+  margin-top: 25px  
+   img{
       width: 60%;
       float: right;
-    }
-  }
+      }  
 }
 
-#ateliers
-{
+
+#ateliers {
   ul{
   font-size: 22px;
   }
@@ -142,7 +143,8 @@ li img
 
 .boite
 {
-  width: 900px;
+  height: 250px;
+  width: 800px;
   margin : 0 auto;
   margin-top: 60px;
   margin-bottom: 20px;
@@ -172,12 +174,11 @@ li img
   background-color: #A8D9A0;
 }
 
-.puce
-{
+.puce {
   list-style-type: none;
-
 }
 
+<<<<<<< HEAD
 button
 {
   background-color:#A8D9A0; 
@@ -186,15 +187,10 @@ button
 
 #Rna
 {
+
   font-size:15px;
 }
 
-.adresse{
+#adresse {
   padding-top: 50px;
 }
-
-
-
-
-
-
