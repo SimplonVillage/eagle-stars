@@ -13,7 +13,6 @@ body {
   background-color: #FFF4FF;
   padding-top: 80px;
   overflow-x: hidden;
-
 }
 
 .row {
@@ -22,8 +21,7 @@ body {
   }
 }
 
-h1
-{
+h1 {
   text-align: center;
   font-size: 28px;
   font-weight: 700;
@@ -35,38 +33,32 @@ h2 {
   font-weight: 700;
 }
 
-#presentation
-{
+#presentation {
   text-align: justify;  
     h2{
-      background-color: #81DAF5;
+      text-color: #81DAF5;
       text-align: center;
     }
-}
- 
+} 
 
-#association
-{
+#association {
   background-color: #A8D9A0;
   font-size: 20px;
 }
-
 
 #equipe {
   background-color: #A8D9A0;
   h2 {
     margin-top: 0;
-  }
-
-.animatrice
-{
-  margin-top: 25px  
-   img{
-      width: 60%;
-      float: right;
-      }  
 }
 
+.animatrice {
+  margin-top: 25px;
+  img{
+    width: 60%;
+    float: right;
+  }
+}
 
 #ateliers {
   ul{
@@ -74,28 +66,23 @@ h2 {
   }
 }
 
-#moncarrousel
-{
+#moncarrousel {
   margin: 0 auto;
   width: 120%;
 }
 
-
 .boite {
   height: 250px;
-
   /*height: 250px;*/
-
   width: 800px;
   margin : 0 auto;
   margin-top: 5px;
-  margin-bottom: 20px;
-  height: 350px;
+  margin-bottom: 20px; 
+  height: 350px; 
   width: 350px;
 }
 
-.navbar-header img
-{
+.navbar-header img {
   height: 100%;
   width: 100%;
   margin-top: 5px;
