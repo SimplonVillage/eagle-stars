@@ -6,58 +6,90 @@
 /**************************************************/
 
 
-body {
+
   
-	font-family: "Kraskarioitalic";
-	font-size: 20px;
+  h1,h2,h3,nav
+  {
+    font-family: "Kraskarioitalic";
+  }
+
+body{
+  font-family: garamond,verdana,arial;
+	font-size: 15px;
   background-color: #FFF4FF;
   /*padding-top: 80px;*/
   overflow-x: hidden;
 }
 
-.row {
-  img {
+.row 
+{
+  img 
+  {
     width: 100%;
   }
 }
 
-
-
-
 h1
-{
+ {
   color: #094030;
-
   text-align: center;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 25px;
 }
 
-h2 {
+h2
+ {
   font-size: 22px;
   font-weight: 700;
 }
 
-#presentation {
+#presentation
+ {
   text-align: justify;  
     h2{
-      color: #81DAF5;
+      color: #145940;
       text-align: center;
     }
 }
 
 
-#association {
-  /*background-color: #A8D9A0;*/
-  font-size: 20px;
+#association 
+{
+  font-family: garamond, verdana, arial;
+  text-align: center;
+  background-color: #A8D9A0;
+  font-size: 15px;
 }
 
 #equipe {
-  h2 {
-    margin-top: 0;
-    }
+  
+  
   }
+.annim1 img {
+  border-radius: 100%;
+  }  
+
+.annim2 img {
+  border-radius: 100%;
+}
+
+.annim3 img{   
+  border-radius:100%;
+  
+}
+
+
+
+    background : url('../images/London.jpg');
+    text-align: center;
+    opacity: 0.7;
+    z-index: 2;
+  /*h2 {
+    margin-top: 0; 
+    }  */ 
+  }
+ 
   
 .animatrice
 {
@@ -69,19 +101,22 @@ h2 {
 }
 
 
-
-#ateliers {
-  ul{
+#ateliers
+ {
+  ul
+  {
   font-size: 22px;
   }
-}
-#moncarrousel {
+
+#moncarrousel 
+{
   margin: 0 auto;
   width: 120%;
   }
+}
 
-
-.boite {
+.boite 
+{
   height: 250px;
   /*height: 250px;*/
   width: 800px;
@@ -104,7 +139,6 @@ nav
   box-shadow: 0px 6px 6px #242424;
   margin-bottom: 20px;
   }
-
 
 nav ul
 {
@@ -129,13 +163,14 @@ nav a
 
 nav a:hover
 {
-  color: #98509c;
-  text-decoration: none;
+  color: #46A667;
+
 }
 
-a
+.contact
 {
-  text-align: right;
+  margin-right: 15px;
+  margin-left: 320px;
 }
 
 li img
@@ -144,7 +179,8 @@ li img
 }
 
 .mailto
-{
+{  
+  font-family: "Kraskarioitalic";
   font-size: 22px;
   color: #96503C;
   text-align: center;
@@ -158,8 +194,7 @@ li img
 
 .mailto:hover
 {
-  color: #98509c;
-  text-decoration: none;
+  color: #46A667;
 }
 
 .boite
@@ -177,8 +212,15 @@ li img
 {
   margin: 0 auto;
   width: 120%;
-  box-shadow: 2px 2px 2px 2px #626262;
+  box-shadow: 2px 2px 2px 2px #242424;
 }
+
+/*.img_london
+{
+  text-align: center;
+  opacity: 0.7;
+  z-index: 2;
+}*/
 
 /*
 .navbar-header img
@@ -206,13 +248,25 @@ button
 
 #Rna
 {
-
-  font-size:15px;
+    font-size:15px;
 }
 
 #adresse {
   padding-top: 35px;
 }
+
 .carte{
   margin-bottom: 50px;
+}
+
+.couleur_albertville{
+  background-color: #5475CF;
+}
+
+.couleur_laigle{
+  background-color: #6E87CF;
+}
+
+.couleur_laloupe{
+  background-color: #8999CF;
 }
