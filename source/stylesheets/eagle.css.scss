@@ -19,14 +19,7 @@ body{
   background-color: #FFF4FF;
   /*padding-top: 80px;*/
   overflow-x: hidden;
-}
-
-.row 
-{
-  img 
-  {
-    width: 100%;
-  }
+  color:#626262 ;
 }
 
 h1
@@ -68,8 +61,6 @@ h2
     opacity: 0.7;
     z-index: 3;                      
   }
-
-  
   
 .annim1 img {
   border-radius: 100%;
@@ -97,6 +88,10 @@ h2
  
   font-size: 15px;
   }
+
+.soustitre{
+  color: #094030;
+}
 
 #moncarrousel 
 {
@@ -251,12 +246,26 @@ button
 
 .couleur_albertville{
   background-color: #5475CF;
+  text-align: center;
 }
 
 .couleur_laigle{
   background-color: #6E87CF;
+  text-align: center;
 }
 
 .couleur_laloupe{
   background-color: #8999CF;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .responsive-table-line table,
+  .responsive-table-line thead,
+  .responsive-table-line tbody,
+  .responsive-table-line th,
+  .responsive-table-line td,
+  .responsive-table-line tr {
+  display: block;
+  }
 }
