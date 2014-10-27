@@ -56,28 +56,33 @@ h2
 }
 
 
-#bureau {
+#bureau 
+{
     background : url('../images/London.jpg');
     text-align: center;
-    opacity: 0.7;
-    z-index: 2;                         
+    color: #FFF;
+    opacity: 0.7;    
+    z-index: 2;                        
   }
-  
-.annim1 img {
+    
+.annim1 img 
+{
   border-radius: 100%;
   height:50px;
   width:50px;
   margin-top:10px;
   }  
 
-.annim2 img {
+.annim2 img 
+{
   border-radius: 100%;
   height:50px;
   width:50px;
   margin-top:10px;
 }
 
-.annim3 img{   
+.annim3 img
+{   
   border-radius:100%;
   height:50px;
   width:50px;
@@ -269,4 +274,10 @@ button
   .responsive-table-line tr {
   display: block;
   }
+}
+
+#membres{
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
 }
