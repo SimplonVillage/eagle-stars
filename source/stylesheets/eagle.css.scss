@@ -6,6 +6,7 @@
 /**************************************************/
 
 
+
   
   h1,h2,h3,nav
   {
@@ -30,7 +31,6 @@ body{
 
 h1
  {
-
   color: #094030;
   text-align: center;
   font-size: 28px;
@@ -40,15 +40,15 @@ h1
 
 h2
  {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 700;
 }
 
 #presentation
  {
-  text-align: justify;  
+  text-align: justify; 
     h2{
-      color: #81DAF5;
+      color: #145940;
       text-align: center;
     }
 }
@@ -62,6 +62,7 @@ h2
   font-size: 15px;
 }
 
+<<<<<<< HEAD
 #bureau {
     background : url('../images/London.jpg');
     text-align: center;
@@ -69,22 +70,43 @@ h2
     z-index: 2;                         
   }
  
+=======
+#equipe {
+  background : url('../images/London.jpg');
+    text-align: center;
+    opacity: 0.7;
+    z-index: 2;
+  /*h2 {
+    margin-top: 0; 
+    }  */ 
+>>>>>>> 959fac578c4766089b53ea7f392e2b2fe39d9e9d
   
-.animatrice
-{
-  margin-top: 25px  
-   img{
-      width: 60%;
-      float: right;
-      }  
+  }
+.annim1 img {
+  border-radius: 100%;
+  height:50px;
+  width:50px;
+  margin-top:10px;
+  }  
+
+.annim2 img {
+  border-radius: 100%;
+  height:50px;
+  width:50px;
+  margin-top:10px;
 }
 
+.annim3 img{   
+  border-radius:100%;
+  height:50px;
+  width:50px;
+  margin-top:10px;
+    
+  }
 
-#ateliers
- {
-  ul
-  {
-  font-size: 22px;
+#ateliers{
+ 
+  font-size: 15px;
   }
 
 #moncarrousel 
@@ -92,7 +114,6 @@ h2
   margin: 0 auto;
   width: 120%;
   }
-}
 
 .boite 
 {
@@ -159,7 +180,8 @@ li img
 .navbar
 
 .mailto
-{
+{  
+  font-family: "Kraskarioitalic";
   font-size: 22px;
   color: #96503C;
   text-align: center;
@@ -227,10 +249,25 @@ button
 
 #Rna
 {
-
-  font-size:15px;
+    font-size:10px;
 }
 
 #adresse {
-  padding-top: 50px;
+  padding-top: 35px;
+}
+
+.carte{
+  margin-bottom: 50px;
+}
+
+.couleur_albertville{
+  background-color: #5475CF;
+}
+
+.couleur_laigle{
+  background-color: #6E87CF;
+}
+
+.couleur_laloupe{
+  background-color: #8999CF;
 }
