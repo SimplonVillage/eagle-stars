@@ -21,14 +21,6 @@ body{
   overflow-x: hidden;
 }
 
-.row 
-{
-  img 
-  {
-    width: 100%;
-  }
-}
-
 h1
  {
   color: #094030;
@@ -62,7 +54,7 @@ h2
   font-size: 15px;
 }
 
-<<<<<<< HEAD
+
 #bureau {
     background : url('../images/London.jpg');
     text-align: center;
@@ -70,7 +62,7 @@ h2
     z-index: 2;                         
   }
  
-=======
+
 #equipe {
   background : url('../images/London.jpg');
     text-align: center;
@@ -79,7 +71,7 @@ h2
   /*h2 {
     margin-top: 0; 
     }  */ 
->>>>>>> 959fac578c4766089b53ea7f392e2b2fe39d9e9d
+
   
   }
 .annim1 img {
@@ -262,12 +254,26 @@ button
 
 .couleur_albertville{
   background-color: #5475CF;
+  text-align: center;
 }
 
 .couleur_laigle{
   background-color: #6E87CF;
+  text-align: center;
 }
 
 .couleur_laloupe{
   background-color: #8999CF;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .responsive-table-line table,
+  .responsive-table-line thead,
+  .responsive-table-line tbody,
+  .responsive-table-line th,
+  .responsive-table-line td,
+  .responsive-table-line tr {
+  display: block;
+  }
 }
