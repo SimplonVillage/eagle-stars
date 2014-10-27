@@ -63,7 +63,7 @@ h2
 }
 
 #equipe {
-    
+  
   
   }
 .annim1 img {
@@ -80,6 +80,25 @@ h2
 }
 
 
+
+    background : url('../images/London.jpg');
+    text-align: center;
+    opacity: 0.7;
+    z-index: 2;
+  /*h2 {
+    margin-top: 0; 
+    }  */ 
+  }
+ 
+  
+.animatrice
+{
+  margin-top: 25px  
+   img{
+      width: 60%;
+      float: right;
+      }  
+}
 
 
 #ateliers
@@ -144,13 +163,14 @@ nav a
 
 nav a:hover
 {
-  color: #98509c;
-  text-decoration: none;
+  color: #46A667;
+
 }
 
-a
+.contact
 {
-  text-align: right;
+  margin-right: 15px;
+  margin-left: 320px;
 }
 
 li img
@@ -174,8 +194,7 @@ li img
 
 .mailto:hover
 {
-  color: #98509c;
-  text-decoration: none;
+  color: #46A667;
 }
 
 .boite
@@ -193,8 +212,15 @@ li img
 {
   margin: 0 auto;
   width: 120%;
-  box-shadow: 2px 2px 2px 2px #626262;
+  box-shadow: 2px 2px 2px 2px #242424;
 }
+
+/*.img_london
+{
+  text-align: center;
+  opacity: 0.7;
+  z-index: 2;
+}*/
 
 /*
 .navbar-header img
@@ -227,4 +253,16 @@ button
 
 #adresse {
   padding-top: 50px;
+}
+
+.couleur_albertville{
+  background-color: #5475CF;
+}
+
+.couleur_laigle{
+  background-color: #6E87CF;
+}
+
+.couleur_laloupe{
+  background-color: #8999CF;
 }
