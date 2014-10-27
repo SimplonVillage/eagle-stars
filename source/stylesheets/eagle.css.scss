@@ -21,7 +21,13 @@ body {
   }
 }
 
+<<<<<<< HEAD
 h1 {
+=======
+h1
+{
+  color: #094030;
+>>>>>>> ba5b08894e0a40a2c1f0a41310a523396d1ae69e
   text-align: center;
   font-size: 28px;
   font-weight: 700;
@@ -41,18 +47,37 @@ h2 {
     }
 }
 
+<<<<<<< HEAD
 #association {
   background-color: #A8D9A0;
+=======
+#association
+{
+>>>>>>> ba5b08894e0a40a2c1f0a41310a523396d1ae69e
   font-size: 20px;
 }
 
 #equipe {
-  background-color: #A8D9A0;
   h2 {
     margin-top: 0;
+    }
   }
+<<<<<<< HEAD
    
 } 
+=======
+ }
+  
+.animatrice
+{
+  margin-top: 25px  
+   img{
+      width: 60%;
+      float: right;
+      }  
+}
+
+>>>>>>> ba5b08894e0a40a2c1f0a41310a523396d1ae69e
 
 #ateliers {
   ul{
