@@ -62,14 +62,11 @@ h2
   font-size: 15px;
 }
 
-#equipe {
+#bureau {
     background : url('../images/London.jpg');
     text-align: center;
     opacity: 0.7;
-    z-index: 2;
-  /*h2 {
-    margin-top: 0; 
-    }  */ 
+    z-index: 2;                         
   }
  
   
@@ -139,7 +136,6 @@ nav a
 {
   display: inline-block;
   color: #181818;
-  /*text-shadow: 3px 0px 3px 2px #626262;*/
   padding-bottom: 4px;
 }
 
@@ -152,13 +148,15 @@ nav a:hover
 .contact
 {
   margin-right: 15px;
-  margin-left: 320px;
+  margin-left: 240px;
 }
 
 li img
 {
   width: 100px;
 }
+
+.navbar
 
 .mailto
 {
