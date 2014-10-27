@@ -48,7 +48,7 @@ h2
  {
   text-align: justify;  
     h2{
-      color: #81DAF5;
+      color: #145940;
       text-align: center;
     }
 }
@@ -64,11 +64,20 @@ h2
 
 #equipe {
     
-  h2 {
-    margin-top: 0; 
-    }   
+  
   }
+.annim1 img {
+  border-radius: 100%;
+  }  
 
+.annim2 img {
+  border-radius: 100%;
+}
+
+.annim3 img{   
+  border-radius:100%;
+  
+}
 
 
 
@@ -150,7 +159,8 @@ li img
 }
 
 .mailto
-{
+{  
+  font-family: "Kraskarioitalic";
   font-size: 22px;
   color: #96503C;
   text-align: center;
@@ -212,8 +222,7 @@ button
 
 #Rna
 {
-
-  font-size:15px;
+    font-size:15px;
 }
 
 #adresse {
