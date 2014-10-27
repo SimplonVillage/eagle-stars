@@ -16,18 +16,18 @@
 
 <body class="<%= page_classes %>">
   <header>
-    <div class="navbar-header">
+    <div>
       <nav>
         <ul>
           <li><a href="#">Accueil</a></li>
           <li><a href="#pédagogie"><Pédagogie</a></li>
           <li><a href="#ateliers">Ateliers</a></li>
-          <li><a href="#equipe">L'équipes</a></li>
+          <li><a href="#equipe">L'équipe</a></li>
           <li><a href="#planning">Planning</a></li>
           <li><a href ="#lieux">Lieux</a></li>
           <li><a href="#">Galerie photos</a></li> 
           <li><img src="images/drapeauxcadre1.jpeg" alt="drapeau temporaire" /></li>
-          <li><a href="mailto:enireves.carre@gmail.com" class="contact">Contact</a></li>
+          <li><a href="mailto:enireves.carre@gmail.com" class="contact">Contactez-nous</a></li>
         </ul>
       </nav>
     </div>
@@ -59,7 +59,6 @@
 
   <div class="container"> 
     <div class="row"> 
-    <div class="text-center"> 
       <div class="boite"> 
         <div id="moncarrousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators"> 
@@ -72,9 +71,6 @@
           <div class="carousel-inner"> 
             <div class="item active"> 
               <p><img src="../images/PhotoPageHomePage.JPG" alt="Home Page" class="img-responsive"></p>
-            </div>
-            <div class="item"> 
-              <p><img src="../images/Englishspeakingmap.jpg" alt="Pays anglophones" class="img-responsive"></p> 
             </div>
             <div class="item"> 
               <p><img src="../images/StFrancoisLivres20140826.jpg" alt="St François" class="img-responsive"></p>  
@@ -91,9 +87,8 @@
           <span class="glyphicon glyphicon-chevron-right"></span> 
           </a> 
         </div> 
-      </div> 
+      </div>
     </div>
-  </div>
 
   <div class="container">
     <%= yield %>
