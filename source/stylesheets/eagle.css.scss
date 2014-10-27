@@ -63,10 +63,13 @@ h2
 }
 
 #equipe {
-    
-  h2 {
+    background : url('../images/London.jpg');
+    text-align: center;
+    opacity: 0.7;
+    z-index: 2;
+  /*h2 {
     margin-top: 0; 
-    }   
+    }  */ 
   }
  
   
@@ -78,13 +81,6 @@ h2
       float: right;
       }  
 }
-
-.animatrice
-{
-  background : url('../images/London.jpg');
-}
-
-
 
 
 #ateliers
@@ -149,13 +145,14 @@ nav a
 
 nav a:hover
 {
-  color: #98509c;
-  text-decoration: none;
+  color: #46A667;
+
 }
 
-a
+.contact
 {
-  text-align: right;
+  margin-right: 15px;
+  margin-left: 320px;
 }
 
 li img
@@ -178,8 +175,7 @@ li img
 
 .mailto:hover
 {
-  color: #98509c;
-  text-decoration: none;
+  color: #46A667;
 }
 
 .boite
@@ -197,15 +193,15 @@ li img
 {
   margin: 0 auto;
   width: 120%;
-  box-shadow: 2px 2px 2px 2px #626262;
+  box-shadow: 2px 2px 2px 2px #242424;
 }
 
-.img_london
+/*.img_london
 {
   text-align: center;
   opacity: 0.7;
   z-index: 2;
-}
+}*/
 
 /*
 .navbar-header img
