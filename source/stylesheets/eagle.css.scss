@@ -59,22 +59,34 @@ h2
     opacity: 0.7;
     z-index: 3;                      
 }
-  
-.annim1 img {
+
+#bureau 
+{
+    background : url('../images/London.jpg') no-repeat;
+    text-align: center;
+    color: #FFF;
+    opacity: 0.7;    
+    z-index: 3;                     
+  }
+    
+.annim1 img 
+{
   border-radius: 100%;
   height:50px;
   width:50px;
   margin-top:10px;
   }  
 
-.annim2 img {
+.annim2 img 
+{
   border-radius: 100%;
   height:50px;
   width:50px;
   margin-top:10px;
 }
 
-.annim3 img{   
+.annim3 img
+{   
   border-radius:100%;
   height:50px;
   width:50px;
@@ -223,18 +235,8 @@ li img
   margin-bottom: 50px;
 }
 
-.couleur_albertville{
-  background-color: #5475CF;
-  text-align: center;
-}
-
-.couleur_laigle{
-  background-color: #6E87CF;
-  text-align: center;
-}
-
-.couleur_laloupe{
-  background-color: #8999CF;
+.table_planning{
+  border: 2px solid black;
   text-align: center;
 }
 
@@ -247,4 +249,10 @@ li img
   .responsive-table-line tr {
   display: block;
   }
+}
+
+#membres{
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
 }
