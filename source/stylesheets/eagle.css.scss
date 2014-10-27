@@ -6,23 +6,31 @@
 /**************************************************/
 
 
-body {
   
-	font-family: "Kraskarioitalic";
-	font-size: 20px;
+  h1,h2,h3,nav
+  {
+    font-family: "Kraskarioitalic";
+  }
+
+body{
+  font-family: garamond,verdana,arial;
+	font-size: 15px;
   background-color: #FFF4FF;
   /*padding-top: 80px;*/
   overflow-x: hidden;
 }
 
-.row {
-  img {
+.row 
+{
+  img 
+  {
     width: 100%;
   }
 }
 
 h1
-{
+ {
+
   color: #094030;
   text-align: center;
   font-size: 28px;
@@ -30,30 +38,35 @@ h1
   margin-bottom: 25px;
 }
 
-h2 {
+h2
+ {
   font-size: 22px;
   font-weight: 700;
 }
 
 #presentation
-{
+ {
   text-align: justify;  
     h2{
-      background-color: #81DAF5;
+      color: #81DAF5;
       text-align: center;
     }
 }
 
-#association
+
+#association 
 {
-  font-size: 20px;
+  font-family: garamond, verdana, arial;
+  text-align: center;
+  background-color: #A8D9A0;
+  font-size: 15px;
 }
 
-
 #equipe {
+    
   h2 {
-    margin-top: 0;
-    }
+    margin-top: 0; 
+    }   
   }
  
   
@@ -71,11 +84,34 @@ h2 {
   background : url('../images/London.jpg');
 }
 
-#ateliers {
-  ul{
+
+
+
+#ateliers
+ {
+  ul
+  {
   font-size: 22px;
   }
+
+#moncarrousel 
+{
+  margin: 0 auto;
+  width: 120%;
+  }
 }
+
+.boite 
+{
+  height: 250px;
+  /*height: 250px;*/
+  width: 800px;
+  margin : 0 auto;
+  margin-top: 5px;
+  margin-bottom: 20px; 
+  height: 350px; 
+  width: 350px;
+  }
 
 nav
 {
@@ -88,7 +124,7 @@ nav
   height: 35px;
   box-shadow: 0px 6px 6px #242424;
   margin-bottom: 20px;
-}
+  }
 
 nav ul
 {
@@ -189,8 +225,6 @@ li img
 .puce {
   list-style-type: none;
 }
-
-<<<<<<< HEAD
 button
 {
   background-color:#A8D9A0; 
