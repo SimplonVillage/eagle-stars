@@ -6,40 +6,46 @@
 /**************************************************/
 
 
-body {
   
-	font-family: "Kraskarioitalic";
-	font-size: 20px;
+  h1,h2,h3,nav
+  {
+    font-family: "Kraskarioitalic";
+  }
+
+body{
+  font-family: garamond,verdana,arial;
+	font-size: 15px;
   background-color: #FFF4FF;
   /*padding-top: 80px;*/
   overflow-x: hidden;
 }
 
-.row {
-  img {
+.row 
+{
+  img 
+  {
     width: 100%;
   }
 }
 
-<<<<<<< HEAD
-h1 {
-=======
 h1
-{
+ {
+
   color: #094030;
->>>>>>> ba5b08894e0a40a2c1f0a41310a523396d1ae69e
   text-align: center;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 25px;
 }
 
-h2 {
+h2
+ {
   font-size: 22px;
   font-weight: 700;
 }
 
-#presentation {
+#presentation
+ {
   text-align: justify;  
     h2{
       color: #81DAF5;
@@ -47,50 +53,42 @@ h2 {
     }
 }
 
-<<<<<<< HEAD
-#association {
-  background-color: #A8D9A0;
-=======
-#association
+
+#association 
 {
->>>>>>> ba5b08894e0a40a2c1f0a41310a523396d1ae69e
-  font-size: 20px;
+  font-family: garamond, verdana, arial;
+  text-align: center;
+  background-color: #A8D9A0;
+  font-size: 15px;
 }
 
 #equipe {
+    background-color: #A8D9A0;
   h2 {
     margin-top: 0;
     }
   }
-<<<<<<< HEAD
-   
-} 
-=======
- }
-  
-.animatrice
-{
-  margin-top: 25px  
-   img{
-      width: 60%;
-      float: right;
-      }  
-}
 
->>>>>>> ba5b08894e0a40a2c1f0a41310a523396d1ae69e
 
-#ateliers {
-  ul{
+
+
+
+#ateliers
+ {
+  ul
+  {
   font-size: 22px;
   }
 
-#moncarrousel {
+#moncarrousel 
+{
   margin: 0 auto;
   width: 120%;
   }
 }
 
-.boite {
+.boite 
+{
   height: 250px;
   /*height: 250px;*/
   width: 800px;
@@ -101,8 +99,6 @@ h2 {
   width: 350px;
   }
 
-
-.navbar-header img {
 nav
 {
   position: fixed;
@@ -115,7 +111,6 @@ nav
   box-shadow: 0px 6px 6px #242424;
   margin-bottom: 20px;
   }
-}
 
 nav ul
 {
