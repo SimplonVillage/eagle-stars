@@ -64,10 +64,9 @@ h2
 
 
 #bureau {
-    background : url('../images/London.jpg');
-    text-align: center;
+    background : url('../images/London.jpg') no-repeat;
     opacity: 0.7;
-    z-index: 2;                         
+    z-index: 3;                      
   }
 
   
