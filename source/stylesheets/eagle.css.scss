@@ -40,13 +40,13 @@ h1
 
 h2
  {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 700;
 }
 
 #presentation
  {
-  text-align: justify;  
+  text-align: justify; 
     h2{
       color: #145940;
       text-align: center;
@@ -63,49 +63,40 @@ h2
 }
 
 #equipe {
-  
-  
-  }
-.annim1 img {
-  border-radius: 100%;
-  }  
-
-.annim2 img {
-  border-radius: 100%;
-}
-
-.annim3 img{   
-  border-radius:100%;
-  
-}
-
-
-
-    background : url('../images/London.jpg');
+  background : url('../images/London.jpg');
     text-align: center;
     opacity: 0.7;
     z-index: 2;
   /*h2 {
     margin-top: 0; 
     }  */ 
-  }
- 
   
-.animatrice
-{
-  margin-top: 25px  
-   img{
-      width: 60%;
-      float: right;
-      }  
+  }
+.annim1 img {
+  border-radius: 100%;
+  height:50px;
+  width:50px;
+  margin-top:10px;
+  }  
+
+.annim2 img {
+  border-radius: 100%;
+  height:50px;
+  width:50px;
+  margin-top:10px;
 }
 
+.annim3 img{   
+  border-radius:100%;
+  height:50px;
+  width:50px;
+  margin-top:10px;
+    
+  }
 
-#ateliers
- {
-  ul
-  {
-  font-size: 22px;
+#ateliers{
+ 
+  font-size: 15px;
   }
 
 #moncarrousel 
@@ -113,7 +104,6 @@ h2
   margin: 0 auto;
   width: 120%;
   }
-}
 
 .boite 
 {
@@ -248,7 +238,7 @@ button
 
 #Rna
 {
-    font-size:15px;
+    font-size:10px;
 }
 
 #adresse {
