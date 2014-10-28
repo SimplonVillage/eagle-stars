@@ -8,17 +8,15 @@
 
 
   
-  h1,h2,h3,nav
-  {
-    font-family: "Kraskarioitalic";
-  }
+h1,h2,h3,nav
+{
+  font-family: "Kraskarioitalic";
+}
 
 body{
   font-family: garamond,verdana,arial;
 	font-size: 15px;
   background-color: #FFF4FF;
-  /*padding-top: 80px;*/
-  overflow-x: hidden;
   color:#626262 ;
 }
 
@@ -39,13 +37,13 @@ h2
 
 #presentation
  {
+  margin-top: 50px;
   text-align: justify; 
     h2{
       color: #145940;
       text-align: center;
     }
 }
-
 
 #association 
 {
@@ -54,8 +52,6 @@ h2
   background-color: #A8D9A0;
   font-size: 15px;
 }
-
-
 
 #bureau 
 {
@@ -87,12 +83,10 @@ h2
   border-radius:100%;
   height:50px;
   width:50px;
-  margin-top:10px;
-    
+  margin-top:10px;   
   }
 
 #ateliers{
- 
   font-size: 15px;
   }
 
@@ -100,23 +94,20 @@ h2
   color: #094030;
 }
 
-#moncarrousel 
+/*#moncarrousel 
 {
-  margin: 0 auto;
+  margin-left: 15px;
   width: 120%;
-  }
+}*/
 
-.boite 
+/*.boite 
 {
   height: 250px;
-  /*height: 250px;*/
   width: 800px;
-  margin : 0 auto;
+  margin-left: 15px;
   margin-top: 5px;
-  margin-bottom: 20px; 
-  height: 350px; 
-  width: 350px;
-  }
+  margin-bottom: 20px;
+}*/
 
 nav
 {
@@ -129,7 +120,7 @@ nav
   height: 35px;
   box-shadow: 0px 6px 6px #242424;
   margin-bottom: 20px;
-  }
+}
 
 nav ul
 {
@@ -154,21 +145,23 @@ nav a
 nav a:hover
 {
   color: #46A667;
-
 }
 
 .contact
 {
   margin-right: 15px;
-  margin-left: 240px;
+  margin-left: 170px;
+  font-size: 22px;
+  background-color: #A8D9A0;
+  height: 35px;
+  margin-bottom: 20px;
 }
-
+  
 li img
 {
   width: 100px;
 }
 
-.navbar
 
 .mailto
 {  
@@ -180,7 +173,6 @@ li img
   width: 100%;
   height: 35px;
   box-shadow: 3px 2px 2px 2px #626262;
-  text-shadow: 3px 0px 3px 2px #626262;
   margin-bottom: 5px;
 }
 
@@ -200,31 +192,20 @@ li img
   width: 300px;
 }
 
-#moncarrousel
+/*.boite 
 {
-  margin: 0 auto;
-  width: 120%;
-  box-shadow: 2px 2px 2px 2px #242424;
-}
-
-/*.img_london
-{
-  text-align: center;
-  opacity: 0.7;
-  z-index: 2;
+  height: 350px; 
+  width: 350px;
 }*/
 
-/*
-.navbar-header img
+#moncarrousel
 {
-  height: 100%;
-  width: 100%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  text-align: center;
+  box-shadow: 2px 2px 2px 2px #242424;
+  margin-top: 80px;
 }
 
-.navbar
+
+/*.navbar
 {
   background-color: #A8D9A0;
 }
@@ -232,37 +213,26 @@ li img
 .puce {
   list-style-type: none;
 }
-button
-{
-  background-color:#A8D9A0; 
-}
 */
-
 #Rna
 {
     font-size:10px;
 }
 
-#adresse {
+.adresse {
   padding-top: 35px;
+  &:hover {
+    background-color: red;
+  }
 }
 
 .carte{
   margin-bottom: 50px;
+  width: 100%;
 }
 
-.couleur_albertville{
-  background-color: #5475CF;
-  text-align: center;
-}
-
-.couleur_laigle{
-  background-color: #6E87CF;
-  text-align: center;
-}
-
-.couleur_laloupe{
-  background-color: #8999CF;
+.table_planning{
+  border: 2px solid black;
   text-align: center;
 }
 
