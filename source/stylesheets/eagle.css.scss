@@ -17,7 +17,6 @@ body{
   font-family: garamond,verdana,arial;
 	font-size: 15px;
   background-color: #FFF4FF;
-  overflow-x: hidden;
   color:#626262 ;
 }
 
@@ -38,6 +37,7 @@ h2
 
 #presentation
  {
+  margin-top: 50px;
   text-align: justify; 
     h2{
       color: #145940;
@@ -51,13 +51,6 @@ h2
   text-align: center;
   background-color: #A8D9A0;
   font-size: 15px;
-}
-
-#bureau
-{
-    background : url('../images/London.jpg') no-repeat;
-    opacity: 0.7;
-    z-index: 3;                      
 }
 
 #bureau 
@@ -169,9 +162,8 @@ li img
   width: 100px;
 }
 
-.navbar
 
-/*.mailto
+.mailto
 {  
   font-family: "Kraskarioitalic";
   font-size: 22px;
@@ -182,7 +174,7 @@ li img
   height: 35px;
   box-shadow: 3px 2px 2px 2px #626262;
   margin-bottom: 5px;
-}*/
+}
 
 .mailto:hover
 {
@@ -208,10 +200,10 @@ li img
 
 #moncarrousel
 {
-  margin: 0 auto;
-  width: 120%;
   box-shadow: 2px 2px 2px 2px #242424;
+  margin-top: 80px;
 }
+
 
 /*.navbar
 {
@@ -227,12 +219,16 @@ li img
     font-size:10px;
 }
 
-#adresse {
+.adresse {
   padding-top: 35px;
+  &:hover {
+    background-color: red;
+  }
 }
 
 .carte{
   margin-bottom: 50px;
+  width: 100%;
 }
 
 .table_planning{
