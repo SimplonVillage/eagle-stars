@@ -239,27 +239,39 @@ li img
     font-size:10px;
 }
 
-.adresse {  
-  padding-top: 35px;
-  &:hover {    
-    background-color: red;
+
+.adresse {
+  padding: 15px;
+  &:hover {
+    background-color:#A8D9A0;
+
   }
-}
+
 
 .carte{
   margin-bottom: 50px;
-  width: 100%;
+  width: 120%;
+  margin-left: 100px;
 }
 
-.responsive-table-line{
-  border: 2px solid black;
+.responsive-table-line {
   text-align: left;
+  tbody > tr > td, thead > tr > th, table {
+    border: 2px solid black;
+  }
 }
 
-@media (max-width: 500px) { 
-  content: attr(data-title); 
+@media (max-width: 500px) {
+  .responsive-table-line td:before { content: attr(data-title); }
+  .responsive-table-line table,
+  .responsive-table-line thead,
+  .responsive-table-line tbody,
+  .responsive-table-line th,
+  .responsive-table-line td,
+  .responsive-table-line tr {
+  display: block;
+  }
 }
-
 
 #membres{
   color: #0C0B0D;
