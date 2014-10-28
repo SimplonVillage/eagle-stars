@@ -242,15 +242,24 @@ li img
   width: 130%;
 }
 
-.responsive-table-line{
-  border: 2px solid black;
+.responsive-table-line {
   text-align: left;
+  tbody > tr > td, thead > tr > th, table {
+    border: 2px solid black;
+  }
 }
 
-@media (max-width: 500px) { 
-  content: attr(data-title); 
+@media (max-width: 500px) {
+  .responsive-table-line td:before { content: attr(data-title); }
+  .responsive-table-line table,
+  .responsive-table-line thead,
+  .responsive-table-line tbody,
+  .responsive-table-line th,
+  .responsive-table-line td,
+  .responsive-table-line tr {
+  display: block;
+  }
 }
-
 
 #membres{
   padding-left: 50px;
