@@ -17,7 +17,17 @@ body{
   font-family: garamond,verdana,arial;
 	font-size: 15px;
   background-color: #FFF4FF;
-  color:#626262 ;
+  color:#0C0B0D;
+}
+
+#background
+{
+  position:fixed;
+  z-index:-1;
+  top:0%;
+  left:0%;
+  height:100%;
+  width:100%;
 }
 
 h1
@@ -48,9 +58,7 @@ h2
 
 #bureau 
 {
-    background : url('../images/London.jpg') no-repeat;
-    text-align: center;
-    color: #FFF;
+    text-align: center;    
     opacity: 0.7;    
     z-index: 3;                     
   }
@@ -67,7 +75,8 @@ h2
 
 
 #ateliers{
-  font-family: garamond, verdana, arial;
+  color: #0C0B0D;
+  font-family: garamond, verdana, arial;  
   font-size: 15px;  
   background-color: #A8D9A0;  
   }
@@ -89,7 +98,7 @@ h2
 }
 
 .soustitre{
-  color: #094030;
+  color: #0C0B0D;
 }
 
 /*#moncarrousel 
@@ -136,13 +145,13 @@ nav li
 nav a 
 {
   display: inline-block;
-  color: #181818;
+  color: #0C0B0D;
   padding-bottom: 4px;
 }
 
 nav a:hover
 {
-  color: #46A667;
+  color: #0C0B0D;
 }
 
 .contact
@@ -165,7 +174,7 @@ li img
 {  
   font-family: "Kraskarioitalic";
   font-size: 22px;
-  color: #96503C;
+  color: #0C0B0D;
   text-align: center;
   background-color:#A8D9A0;
   width: 100%;
@@ -176,7 +185,7 @@ li img
 
 .mailto:hover
 {
-  color: #46A667;
+  color: #0C0B0D;
 }
 
 .boite
@@ -217,12 +226,14 @@ li img
     font-size:10px;
 }
 
+
 .adresse {
   padding: 15px;
   &:hover {
     background-color:#A8D9A0;
+
   }
-}
+
 
 .carte{
   margin-bottom: 50px;
@@ -230,17 +241,27 @@ li img
   margin-left: 100px;
 }
 
-.responsive-table-line{
-  border: 2px solid black;
+.responsive-table-line {
   text-align: left;
+  tbody > tr > td, thead > tr > th, table {
+    border: 2px solid black;
+  }
 }
 
-@media (max-width: 500px) { 
-  content: attr(data-title); 
+@media (max-width: 500px) {
+  .responsive-table-line td:before { content: attr(data-title); }
+  .responsive-table-line table,
+  .responsive-table-line thead,
+  .responsive-table-line tbody,
+  .responsive-table-line th,
+  .responsive-table-line td,
+  .responsive-table-line tr {
+  display: block;
+  }
 }
-
 
 #membres{
+  color: #0C0B0D;
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
