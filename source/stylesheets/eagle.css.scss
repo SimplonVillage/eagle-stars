@@ -58,8 +58,9 @@ h2
     background : url('../images/London.jpg') no-repeat;
     text-align: center;
     color: #FFF;
-    opacity: 0.7;    
-    z-index: 3;                     
+    width: 0 auto;
+    opacity: 0.7;  
+    z-index: 3;                    
   }
     
 .annim1 img 
@@ -93,21 +94,6 @@ h2
 .soustitre{
   color: #094030;
 }
-
-/*#moncarrousel 
-{
-  margin-left: 15px;
-  width: 120%;
-}*/
-
-/*.boite 
-{
-  height: 250px;
-  width: 800px;
-  margin-left: 15px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}*/
 
 nav
 {
@@ -147,21 +133,23 @@ nav a:hover
   color: #46A667;
 }
 
+.logo
+{
+  position: fixed;
+  z-index: 1;
+  width: 30%;
+  height: 35px;
+  margin-top: 0;
+}
+
 .contact
 {
-  margin-right: 15px;
-  margin-left: 170px;
+  margin-right: 0px;
   font-size: 22px;
   background-color: #A8D9A0;
   height: 35px;
   margin-bottom: 20px;
 }
-  
-li img
-{
-  width: 100px;
-}
-
 
 .mailto
 {  
@@ -192,28 +180,12 @@ li img
   width: 300px;
 }
 
-/*.boite 
-{
-  height: 350px; 
-  width: 350px;
-}*/
-
 #moncarrousel
 {
   box-shadow: 2px 2px 2px 2px #242424;
   margin-top: 80px;
 }
 
-
-/*.navbar
-{
-  background-color: #A8D9A0;
-}
-
-.puce {
-  list-style-type: none;
-}
-*/
 #Rna
 {
     font-size:10px;
