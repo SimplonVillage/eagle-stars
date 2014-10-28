@@ -231,21 +231,15 @@ li img
   width: 100%;
 }
 
-.table_planning{
+.responsive-table-line{
   border: 2px solid black;
-  text-align: center;
+  text-align: left;
 }
 
-@media (max-width: 500px) {
-  .responsive-table-line table,
-  .responsive-table-line thead,
-  .responsive-table-line tbody,
-  .responsive-table-line th,
-  .responsive-table-line td,
-  .responsive-table-line tr {
-  display: block;
-  }
+@media (max-width: 500px) { 
+  content: attr(data-title); 
 }
+
 
 #membres{
   padding-left: 50px;
