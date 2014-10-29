@@ -69,7 +69,7 @@ border-radius: 5px 5px 5px 5px;
   -moz-border-radius : 5px 5px 5px 5px;
   -webkit-border-radius:5px 5px 5px 5px;
   behavior: url(PIE.htc);
-  background-color: #ABBF0F;
+  background-color: #C4C4C4;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -94,6 +94,8 @@ border-radius: 5px 5px 5px 5px;
 {
 
   margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
   background-color: #236A62;
   border-radius: 5px 5px 5px 5px;
     -moz-border-radius : 5px 5px 5px 5px;
@@ -117,8 +119,12 @@ border-radius: 5px 5px 5px 5px;
   color: #0C0B0D;
   font-family: garamond, verdana, arial;  
   font-size: 15px;  
-  background-color: #A8D9A0;
-  margin-top:50px;    
+  background-color: #C4C4C4;
+  margin-top:50px; 
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-right: 20px;
+  padding-left: 20px;   
   border-radius: 5px 5px 5px 5px;
     -moz-border-radius : 5px 5px 5px 5px;
     -webkit-border-radius:5px 5px 5px 5px;
@@ -279,51 +285,11 @@ li img
   content: attr(data-title);   
 }
 
-.bulle1
+.bulle
 {
   background-color: white;
   border-radius: 5px 5px 5px 5px;
     -moz-border-radius : 5px 5px 5px 5px;
     -webkit-border-radius:5px 5px 5px 5px;
     behavior: url(PIE.htc);
-}
-
-.bulle2
-{
-  background-color: white;
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
-    behavior: url(PIE.htc);
-  margin-right: 455px;
-}
-
-.bulle3
-{
-  background-color: white;
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
-    behavior: url(PIE.htc);
-    margin-left: 455px;
-}
-
-.bulle4
-{
-  background-color: white;
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
-    behavior: url(PIE.htc);
-    margin-right: 455px;
-}
-
-.bulle5
-{
-  background-color: white;
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
-    behavior: url(PIE.htc);
-    margin-left: 455px;
 }
