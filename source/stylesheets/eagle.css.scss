@@ -21,16 +21,6 @@ body{
   color:#0B0C0D;
 }
 
-#background
-{
-  position:fixed;
-  z-index:-1;
-  top:0%;
-  left:0%;
-  height:100%;
-  width:100%;
-}
-
 h1
  {
   color: #094030;
@@ -48,7 +38,7 @@ h2
 
 
 #presentation {
-background-color:#8CC466;
+background-color:#A8D9A0;
 border-radius: 5px 5px 5px 5px;
   -moz-border-radius : 5px 5px 5px 5px;
   -webkit-border-radius:5px 5px 5px 5px;
@@ -57,11 +47,6 @@ border-radius: 5px 5px 5px 5px;
   text-align: justify;
 }
 
-#presentation h2{
-
-  color: #145940;
-
-}
 
 #pedagogie{
   margin-top: 50px;
@@ -77,17 +62,24 @@ border-radius: 5px 5px 5px 5px;
 
 #bureau 
 {
-  background-image :url("/images/London1.jpg"); 
-  background-repeat: no-repeat;   
+  background-image :url("/images/London1.jpg");
+  background-size: 100%;    
+  background-repeat: no-repeat; 
+  -webkit-background-size : cover; 
+  -moz-background-size : cover; 
+  -o-background-size : cover; 
+  background-size : cover; 
+  background-position : center;  
   text-align: center;    
   opacity: 0.7;    
   z-index: 3;
-  margin-top: 50px; 
+ /* margin-top: 50px;*/
   color: #0C0B0D;
   padding-left: 50px;
   padding-right: 50px;
-  text-align: center;                    
+  /*text-align: center; */                   
   }
+
 
 
 #equipe
@@ -112,8 +104,6 @@ border-radius: 5px 5px 5px 5px;
   margin-bottom: 30px;
   }  
 
-
-
 #ateliers
 {
   color: #0C0B0D;
@@ -130,6 +120,22 @@ border-radius: 5px 5px 5px 5px;
     -webkit-border-radius:5px 5px 5px 5px;
     behavior: url(PIE.htc);
 }
+
+#container-ateliers
+{
+  background-color: yellow;
+}
+
+#container-equipe
+{
+  background-color: red;
+}
+
+#container-adresses
+{
+  background-color: purple;
+}
+
 
 #atpetits{
   font-family: garamond, verdana, arial;
@@ -269,7 +275,6 @@ li img
   background-color: #816A82;
   margin-bottom: 50px;
   width: 120%;
-  margin-left: 100px;
   }
 
 .responsive-table-line
