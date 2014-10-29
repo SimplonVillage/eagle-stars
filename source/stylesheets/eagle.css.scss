@@ -77,7 +77,8 @@ border-radius: 5px 5px 5px 5px;
 
 #bureau 
 {
-  background-image :url("/images/London.jpg");    
+  background-image :url("/images/London1.jpg"); 
+  background-repeat: no-repeat;   
   text-align: center;    
   opacity: 0.7;    
   z-index: 3;
@@ -87,6 +88,7 @@ border-radius: 5px 5px 5px 5px;
   padding-right: 50px;
   text-align: center;                    
   }
+
 
 #equipe
 {
@@ -277,3 +279,51 @@ li img
   content: attr(data-title);   
 }
 
+.bulle1
+{
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
+}
+
+.bulle2
+{
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
+  margin-right: 455px;
+}
+
+.bulle3
+{
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
+    margin-left: 455px;
+}
+
+.bulle4
+{
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
+    margin-right: 455px;
+}
+
+.bulle5
+{
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
+    margin-left: 455px;
+}
