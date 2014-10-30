@@ -95,35 +95,42 @@ h2
   color: #094030;
 }
 
-nav
+.logo
 {
   position: fixed;
-  z-index: 1;
-  display: inline-block;
-  font-size: 22px;
+  width: 30%;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.navbar-default
+{
   background-color: #A8D9A0;
-  width: 100%;
+}
+
+.nav
+{
+  background-color: #A8D9A0 !important;
+  color:#626262;
+  font-family: "Kraskarioitalic";
+  font-size: 24px;
   height: 35px;
+}
+
+
+/* nav
+{
+  z-index: 1;
+  position: fixed;
+  display: inline-block;
+  width: 100%;
   box-shadow: 0px 6px 6px #242424;
   margin-bottom: 20px;
 }
 
-nav ul
+a 
 {
-  display: inline-block;
-  list-style: none;
-}
-
-nav li
-{
-  display: inline-block;
-  margin-right: 15px;
-  margin-left: 5px;
-}
-
-nav a 
-{
-  display: inline-block;
   color: #181818;
   padding-bottom: 4px;
 }
@@ -131,25 +138,7 @@ nav a
 nav a:hover
 {
   color: #46A667;
-}
-
-.logo
-{
-  position: fixed;
-  z-index: 1;
-  width: 30%;
-  height: 35px;
-  margin-top: 0;
-}
-
-.contact
-{
-  margin-right: 0px;
-  font-size: 22px;
-  background-color: #A8D9A0;
-  height: 35px;
-  margin-bottom: 20px;
-}
+}*/
 
 .mailto
 {  
@@ -184,6 +173,11 @@ nav a:hover
 {
   box-shadow: 2px 2px 2px 2px #242424;
   margin-top: 80px;
+}
+
+.carousel-inner {
+  width: 300px;
+  height: 250px; 
 }
 
 #Rna
@@ -224,3 +218,4 @@ nav a:hover
   padding-right: 50px;
   text-align: center;
 }
+
