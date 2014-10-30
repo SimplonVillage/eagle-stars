@@ -67,16 +67,8 @@ border-radius: 5px 5px 5px 5px;
   margin-left: 20px
 }
 
-
 #bureau 
 {
-    background : url('../images/London.jpg') no-repeat;
-    text-align: center;
-    color: #FFF;
-    width: 0 auto;
-    opacity: 0.7;  
-    z-index: 3;                    
-
   background-image :url("/images/London1.jpg");
   background-size: 100%;    
   background-repeat: no-repeat; 
@@ -98,15 +90,11 @@ border-radius: 5px 5px 5px 5px;
   padding-right: 50px;
   margin-right: 20px;
   margin-left: 20px
-  /*text-align: center; */                   
->>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
+  /*text-align: center; */
   }
-
-
 
 #equipe
 {
-
   margin-top: 50px;
   margin-right: 20px;
   margin-left: 20px;
@@ -149,11 +137,10 @@ border-radius: 5px 5px 5px 5px;
     font-family: garamond, verdana, arial;
 }
 
-#atprimaire1{
+/*#atprimaire1{
   font-family: garamond, verdana, arial;
-}
+}*/
 
-<<<<<<< HEAD
 .logo
 {
   position: fixed;
@@ -162,21 +149,21 @@ border-radius: 5px 5px 5px 5px;
   margin-top: 0px;
   margin-bottom: 20px;
 }
-=======
+
 #atadultes{
   font-family: garamond, verdana, arial;
 }
 
-#planning
+#planning h1
 {
-  margin-top: 50px;
+  background-color: #C68A540;
+  /*margin-top: 50px;
   margin-right: 20px;
   margin-left: 20px;
   background-color: #C4C4C4;
   border-radius: 5px 5px 5px 5px;
     -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
- 
+    -webkit-border-radius:5px 5px 5px 5px;*/
 }
 
 #contact h1
@@ -185,8 +172,6 @@ border-radius: 5px 5px 5px 5px;
   }  
 
 
->>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
-
 .navbar-default
 {
   background-color: #A8D9A0;
@@ -194,7 +179,7 @@ border-radius: 5px 5px 5px 5px;
 
 .nav
 {
-  background-color: #A8D9A0 !important;
+  background-color: #A8D9A0;
   color:#626262;
   font-family: "Kraskarioitalic";
   font-size: 24px;
@@ -214,23 +199,19 @@ border-radius: 5px 5px 5px 5px;
 
 a 
 {
-<<<<<<< HEAD
   color: #181818;
-=======
   display: inline-block;
   color: #0C0B0D;
->>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
   padding-bottom: 4px;
 }
 
 nav a:hover
 {
-<<<<<<< HEAD
   color: #46A667;
 }*/
-=======
-  color: #0C0B0D;
-}
+
+  /*color: #0C0B0D;
+}*/
 
 .contact
 {
@@ -246,8 +227,6 @@ li img
 {
   width: 100px;
 }
-
->>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
 
 .mailto
 {  
@@ -284,19 +263,15 @@ li img
   margin-top: 80px;
 }
 
-<<<<<<< HEAD
 .carousel-inner {
   width: 300px;
   height: 250px; 
 }
-=======
->>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
 
 #Rna
 {
     font-size:11px;
 }
-
 
 .adresses {  
   margin-top: 50px;
@@ -325,14 +300,12 @@ li img
   }
 }
 
-<<<<<<< HEAD
 #membres{
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
 }
 
-=======
 .bulle
 {
   background-color: white;
@@ -341,4 +314,4 @@ li img
     -webkit-border-radius:5px 5px 5px 5px;
     behavior: url(PIE.htc);
 }
->>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
+
