@@ -5,7 +5,9 @@
 }
 /**************************************************/
 
-
+@media(max-width: 500px) {
+  content: attr(data-title);   
+}
 
   
 h1,h2,h3,nav
@@ -14,15 +16,20 @@ h1,h2,h3,nav
 }
 
 body{
-  font-family: garamond,verdana,arial;
+  font-family: "Champ", verdana, arial;
+  src:url ("Champ.ttf");
 	font-size: 15px;
   background-color: #FFF4FF;
-  color:#626262 ;
+  color:#0B0C0D;
 }
 
 h1
  {
   color: #094030;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius : 5px 5px 5px 5px;
+  -webkit-border-radius:5px 5px 5px 5px;
+  behavior: url(PIE.htc);
   text-align: center;
   font-size: 28px;
   font-weight: 700;
@@ -35,23 +42,31 @@ h2
   font-weight: 700;
 }
 
-#presentation
- {
+
+#presentation {
+background-color:#A8D9A0;
+border-radius: 5px 5px 5px 5px;
+  -moz-border-radius : 5px 5px 5px 5px;
+  -webkit-border-radius:5px 5px 5px 5px;
+  behavior: url(PIE.htc);
   margin-top: 50px;
-  text-align: justify; 
-    h2{
-      color: #145940;
-      text-align: center;
-    }
+  text-align: justify;
 }
 
-#association 
-{
-  font-family: garamond, verdana, arial;
-  text-align: center;
-  background-color: #A8D9A0;
-  font-size: 15px;
+
+#pedagogie{
+  margin-top: 50px;  
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius : 5px 5px 5px 5px;
+  -webkit-border-radius:5px 5px 5px 5px;
+  behavior: url(PIE.htc);
+  background-color: #C4C4C4;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
+  margin-left: 20px
 }
+
 
 #bureau 
 {
@@ -61,40 +76,84 @@ h2
     width: 0 auto;
     opacity: 0.7;  
     z-index: 3;                    
+
+  background-image :url("/images/London1.jpg");
+  background-size: 100%;    
+  background-repeat: no-repeat; 
+  -webkit-background-size : cover; 
+  -moz-background-size : cover; 
+  -o-background-size : cover; 
+  background-size : cover; 
+  background-position : center;  
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
+  text-align: center;    
+  opacity: 0.7;    
+  z-index: 3;
+  margin-top: 50px;
+  color: #0C0B0D;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 20px;
+  margin-left: 20px
+  /*text-align: center; */                   
+>>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
   }
-    
-.annim1 img 
+
+
+
+#equipe
 {
-  border-radius: 100%;
+
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #C4C4C4;
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
+}
+
+    
+.annim img {
+  border-radius: 100%;  
   height:50px;
   width:50px;
   margin-top:10px;
+  margin-bottom: 30px;
   }  
 
-.annim2 img 
+#ateliers
 {
-  border-radius: 100%;
-  height:50px;
-  width:50px;
-  margin-top:10px;
+  color: #0C0B0D;
+  font-family: garamond, verdana, arial;  
+  font-size: 15px;  
+  background-color: #C4C4C4;
+  margin-top:50px; 
+  margin-right: 20px;
+  margin-left: 20px;   
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
 }
 
-.annim3 img
-{   
-  border-radius:100%;
-  height:50px;
-  width:50px;
-  margin-top:10px;   
-  }
-
-#ateliers{
-  font-size: 15px;
-  }
-
-.soustitre{
-  color: #094030;
+#atpetits{
+  font-family: garamond, verdana, arial;
 }
 
+#atprimaire{
+    font-family: garamond, verdana, arial;
+}
+
+#atprimaire1{
+  font-family: garamond, verdana, arial;
+}
+
+<<<<<<< HEAD
 .logo
 {
   position: fixed;
@@ -103,6 +162,30 @@ h2
   margin-top: 0px;
   margin-bottom: 20px;
 }
+=======
+#atadultes{
+  font-family: garamond, verdana, arial;
+}
+
+#planning
+{
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #C4C4C4;
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+ 
+}
+
+#contact h1
+{ 
+    margin-top: 50px;
+  }  
+
+
+>>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
 
 .navbar-default
 {
@@ -131,20 +214,46 @@ h2
 
 a 
 {
+<<<<<<< HEAD
   color: #181818;
+=======
+  display: inline-block;
+  color: #0C0B0D;
+>>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
   padding-bottom: 4px;
 }
 
 nav a:hover
 {
+<<<<<<< HEAD
   color: #46A667;
 }*/
+=======
+  color: #0C0B0D;
+}
+
+.contact
+{
+  margin-right: 15px;
+  margin-left: 170px;
+  font-size: 22px;
+  background-color: #A8D9A0;  
+  height: 35px;
+  margin-bottom: 20px;
+}
+  
+li img
+{
+  width: 100px;
+}
+
+>>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
 
 .mailto
 {  
   font-family: "Kraskarioitalic";
   font-size: 22px;
-  color: #96503C;
+  color: #0C0B0D;
   text-align: center;
   background-color:#A8D9A0;
   width: 100%;
@@ -155,7 +264,7 @@ nav a:hover
 
 .mailto:hover
 {
-  color: #46A667;
+  color: #0C0B0D;
 }
 
 .boite
@@ -175,47 +284,61 @@ nav a:hover
   margin-top: 80px;
 }
 
+<<<<<<< HEAD
 .carousel-inner {
   width: 300px;
   height: 250px; 
 }
+=======
+>>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
 
 #Rna
 {
-    font-size:10px;
+    font-size:11px;
 }
 
-.adresse {
-  padding-top: 35px;
-  &:hover {
-    background-color: red;
-  }
-}
+
+.adresses {  
+  margin-top: 50px;
+  color: #0C0B0D; 
+  padding: 15px;
+  margin-top: 20px;}
+  /*a:hover {
+    background-color:#A8D9A0;
+  }*/
 
 .carte{
+  background-color: #816A82;  
   margin-bottom: 50px;
-  width: 100%;
-}
+  width: 120%;
+  }
 
-.table_planning{
-  border: 2px solid black;
-  text-align: center;
-}
-
-@media (max-width: 500px) {
-  .responsive-table-line table,
-  .responsive-table-line thead,
-  .responsive-table-line tbody,
-  .responsive-table-line th,
-  .responsive-table-line td,
-  .responsive-table-line tr {
-  display: block;
+.responsive-table-line
+ {
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
+  text-align: left;  
+    tbody > tr > td, thead > tr > th, table {
+    border: 2px solid black;
   }
 }
 
+<<<<<<< HEAD
 #membres{
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
 }
 
+=======
+.bulle
+{
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
+}
+>>>>>>> c951e5fac1baf2ebc64e70b6041a02b97cfe391a
