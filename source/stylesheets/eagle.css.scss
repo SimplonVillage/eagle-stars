@@ -5,7 +5,9 @@
 }
 /**************************************************/
 
-
+@media(max-width: 500px) {
+  content: attr(data-title);   
+}
 
   
 h1,h2,h3,nav
@@ -21,19 +23,13 @@ body{
   color:#0B0C0D;
 }
 
-#background
-{
-  position:fixed;
-  z-index:-1;
-  top:0%;
-  left:0%;
-  height:100%;
-  width:100%;
-}
-
 h1
  {
   color: #094030;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius : 5px 5px 5px 5px;
+  -webkit-border-radius:5px 5px 5px 5px;
+  behavior: url(PIE.htc);
   text-align: center;
   font-size: 28px;
   font-weight: 700;
@@ -48,7 +44,7 @@ h2
 
 
 #presentation {
-background-color:#8CC466;
+background-color:#A8D9A0;
 border-radius: 5px 5px 5px 5px;
   -moz-border-radius : 5px 5px 5px 5px;
   -webkit-border-radius:5px 5px 5px 5px;
@@ -57,14 +53,9 @@ border-radius: 5px 5px 5px 5px;
   text-align: justify;
 }
 
-#presentation h2{
-
-  color: #145940;
-
-}
 
 #pedagogie{
-  margin-top: 50px;
+  margin-top: 50px;  
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius : 5px 5px 5px 5px;
   -webkit-border-radius:5px 5px 5px 5px;
@@ -72,22 +63,37 @@ border-radius: 5px 5px 5px 5px;
   background-color: #C4C4C4;
   padding-right: 20px;
   padding-left: 20px;
+  margin-right: 20px;
+  margin-left: 20px
 }
 
 
 #bureau 
 {
-  background-image :url("/images/London1.jpg"); 
-  background-repeat: no-repeat;   
+  background-image :url("/images/London1.jpg");
+  background-size: 100%;    
+  background-repeat: no-repeat; 
+  -webkit-background-size : cover; 
+  -moz-background-size : cover; 
+  -o-background-size : cover; 
+  background-size : cover; 
+  background-position : center;  
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
   text-align: center;    
   opacity: 0.7;    
   z-index: 3;
-  margin-top: 50px; 
+  margin-top: 50px;
   color: #0C0B0D;
   padding-left: 50px;
   padding-right: 50px;
-  text-align: center;                    
+  margin-right: 20px;
+  margin-left: 20px
+  /*text-align: center; */                   
   }
+
 
 
 #equipe
@@ -96,7 +102,7 @@ border-radius: 5px 5px 5px 5px;
   margin-top: 50px;
   margin-right: 20px;
   margin-left: 20px;
-  background-color: #236A62;
+  background-color: #C4C4C4;
   border-radius: 5px 5px 5px 5px;
     -moz-border-radius : 5px 5px 5px 5px;
     -webkit-border-radius:5px 5px 5px 5px;
@@ -112,8 +118,6 @@ border-radius: 5px 5px 5px 5px;
   margin-bottom: 30px;
   }  
 
-
-
 #ateliers
 {
   color: #0C0B0D;
@@ -122,9 +126,7 @@ border-radius: 5px 5px 5px 5px;
   background-color: #C4C4C4;
   margin-top:50px; 
   margin-right: 20px;
-  margin-left: 20px;
-  padding-right: 20px;
-  padding-left: 20px;   
+  margin-left: 20px;   
   border-radius: 5px 5px 5px 5px;
     -moz-border-radius : 5px 5px 5px 5px;
     -webkit-border-radius:5px 5px 5px 5px;
@@ -147,9 +149,15 @@ border-radius: 5px 5px 5px 5px;
   font-family: garamond, verdana, arial;
 }
 
-#planning h1
+#planning
 {
-  background-color: #68A5A0;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #C4C4C4;
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
  
 }
 
@@ -203,7 +211,7 @@ nav a:hover
   margin-right: 15px;
   margin-left: 170px;
   font-size: 22px;
-  background-color: #A8D9A0;
+  background-color: #A8D9A0;  
   height: 35px;
   margin-bottom: 20px;
 }
@@ -252,37 +260,35 @@ li img
 
 #Rna
 {
-    font-size:10px;
+    font-size:11px;
 }
 
 
 .adresses {  
   margin-top: 50px;
-  color: #0C0B0D;
+  color: #0C0B0D; 
   padding: 15px;
   margin-top: 20px;}
-  a:hover {
+  /*a:hover {
     background-color:#A8D9A0;
-  }
+  }*/
 
 .carte{
-  background-color: #816A82;
+  background-color: #816A82;  
   margin-bottom: 50px;
   width: 120%;
-  margin-left: 100px;
   }
 
 .responsive-table-line
  {
-  background-color: #68A5A0;
+  border-radius: 5px 5px 5px 5px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    behavior: url(PIE.htc);
   text-align: left;  
     tbody > tr > td, thead > tr > th, table {
     border: 2px solid black;
   }
-}
-
-@media(max-width: 500px) {
-  content: attr(data-title);   
 }
 
 .bulle
