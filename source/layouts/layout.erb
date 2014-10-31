@@ -12,75 +12,46 @@
   <%= javascript_include_tag  "all" %> 
 </head>
   
-
-
 <body class="<%= page_classes %>">  
   <header>
+    <div class="row-navbar">  
+      <div class="container-navbar">
+        <nav class="navbar navbar-fixed-top" role="navigation">
+          <!--<div class="collapse navbar-collapse">-->
+<!--Logo-->     
+            <div class="logo">
+              <a class="navbar-brand" href="#"><img src="images/Logo.jpg" alt="Logo" class="logo"></a>
+            </div>
+<!--Navigation-->
+            
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button> 
 
-       <!-- <nav>
-          <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#pédagogie">Pédagogie</a></li>
-            <li><a href="#ateliers">Ateliers</a></li>
-            <li><a href="#equipe">L'équipe</a></li>
-            <li><a href="#planning">Planning</a></li>
-            <li><a href="#lieux">Lieux</a></li>
-            <li><a href="#">Galerie photos</a></li> 
-            <li><img src="images/Logo.jpg" alt="Logo" class="logo"/></li>
-          </ul>
-          <li class="navbar-right"><a href="mailto:enireves.carre@gmail.com" class="contact">Contactez-nous</a></li>
-        </nav>-->
+            <div class="nav navbar-nav"> 
+              <ul class="nav navbar-nav">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#pedagogie">Pédagogie</a></li>
+                <li><a href="#ateliers">Ateliers</a></li>
+                <li><a href="#equipe">L'équipe</a></li>
+                <li><a href="#planning">Planning</a></li>
+                <li><a href="#lieux">Lieux</a></li>
+                <li><a href="#galerie Photos">Galerie</a></li>  
+                <li><a href="mailto:enireves.carre@gmail.com" class="contact">Contactez-nous</a></li>
+              </ul>
+            </div>
 
-    
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-<!-- Logo -->          
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img src="images/Logo.jpg" alt="Logo" class="logo"></a>
-<!--Bouton de navigation -->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarmobile">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button> 
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbarmobile"> 
-          <ul class="nav navbar-nav">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="pedagogie">Pédagogie</a></li>
-            <li><a href="ateliers">Ateliers</a></li>
-            <li><a href="equipe">L'équipe</a></li>
-            <li><a href="planning">Planning</a></li>
-            <li><a href="lieux">Lieux</a></li>
-            <li><a href="galerie Photos">Galerie</a></li>
-           </ul>
-           <ul class="nav navbar-nav navbar-right"> 
-            <li><a href="mailto:enireves.carre@gmail.com">Contactez-nous</a></li>
-          </ul>
-        </div>
+          
+        </nav>
       </div>
-    </nav>
+    </div>
+  </header>
 
-    <!--<div>
-      <nav>
-        <ul>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#"pedagogie>Pédagogie</a></li>
-          <li><a href="#"ateliers>Ateliers</a></li>
-          <li><a href="#"equipe>L'équipe</a></li>
-          <li><a href="#"planning>Planning</a></li>
-          <li><a href="#"lieux>Lieux</a></li>
-          <li><a href="#">Galerie photos</a></li> 
-          <!--<li><img src="images/drapeauxcadre1.jpeg" alt="drapeau temporaire" /></li>-->
-          <li><a href="mailto:enireves.carre@gmail.com" class="contact">Contactez-nous</a></li>
-        </ul>
-      </nav>-->
-    </header>
-
-  <div class="container enhaut"> 
-    <div class="row">
+  <div class="row">
+    <div class="container enhaut"> 
 
       <div class="col-sm-4">
         <div id="moncarrousel" class="carousel slide" data-ride="carousel">
