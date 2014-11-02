@@ -14,38 +14,39 @@
 </head>
   
 <body class="<%= page_classes %>">  
-  <header>
-    <div class="row-navbar">  
-      <div class="container-navbar">
+  <header>       
+    <div id="container">
+      <div class="row" id="navigation">
         <nav class="navbar navbar-fixed-top" role="navigation">
-          <!--<div class="collapse navbar-collapse">-->
-<!--Logo-->     
-            <div class="logo">
-              <a class="navbar-brand" href="#"><img src="images/Logo.jpg" alt="Logo" class="logo"></a>
-            </div>
-<!--Navigation-->
-            
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button> 
+          <div class="navbar collapse-navbar">
 
-            <div class="nav navbar-nav"> 
-              <ul class="nav navbar-nav">
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#pedagogie">Pédagogie</a></li>
-                <li><a href="#ateliers">Ateliers</a></li>
-                <li><a href="#equipe">L'équipe</a></li>
-                <li><a href="#planning">Planning</a></li>
-                <li><a href="#lieux">Lieux</a></li>
-                <li><a href="#galerie Photos">Galerie</a></li>  
-                <li><a href="mailto:enireves.carre@gmail.com" class="contact">Contactez-nous</a></li>
-              </ul>
-            </div>
+            <div class="navbar-header">
 
-          
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
+         
+          <a class="navbar-brand" href="#"><!--<img src="images/Logo.jpg" alt="Logo" class="logo"-->Navigation</a>
+
+      </div>
+          <div class="collapse navbar-collapse" id="navbarmobile">
+            <div class="navbar-inner">
+
+            <ul class="nav navbar-nav">
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#pedagogie">Pédagogie</a></li>
+              <li><a href="#ateliers">Ateliers</a></li>
+              <li><a href="#equipe">L'équipe</a></li>
+              <li><a href="#planning">Planning</a></li>
+              <li><a href="#lieux">Lieux</a></li>
+              <li><a href="#galerie Photos">Galerie</a></li>  
+              <li><a href="mailto:enireves.carre@gmail.com" class="contact">Contactez-nous</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
         </nav>
       </div>
     </div>
