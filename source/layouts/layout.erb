@@ -13,44 +13,9 @@
   <%= javascript_include_tag  "all" %> 
 </head>
   
-<body class="<%= page_classes %>">  
-  <header>       
-    <div id="container">
-      <div class="row" id="navigation">
-        <nav class="navbar navbar-fixed-top" role="navigation">
-          <div class="navbar collapse-navbar">
+<body class="<%= page_classes %>">
 
-            <div class="navbar-header">
-
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button> 
-         
-          <a class="navbar-brand" href="#"><!--<img src="images/Logo.jpg" alt="Logo" class="logo"-->Navigation</a>
-
-      </div>
-          <div class="collapse navbar-collapse" id="navbarmobile">
-            <div class="navbar-inner">
-
-            <ul class="nav navbar-nav">
-              <li><a href="#">Accueil</a></li>
-              <li><a href="#pedagogie">Pédagogie</a></li>
-              <li><a href="#ateliers">Ateliers</a></li>
-              <li><a href="#equipe">L'équipe</a></li>
-              <li><a href="#planning">Planning</a></li>
-              <li><a href="#lieux">Lieux</a></li>
-              <li><a href="#galerie Photos">Galerie</a></li>  
-              <li><a href="mailto:enireves.carre@gmail.com" class="contact">Contactez-nous</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-        </nav>
-      </div>
-    </div>
-  </header>
+<%= partial"navbar"%>
 
   <div class="row">
     <div class="container enhaut"> 
