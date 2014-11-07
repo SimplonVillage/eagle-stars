@@ -60,6 +60,9 @@ h1  {
 h2 {
   font-size: 33px;
 }
+h3 {
+  font-size: 28px;
+}
 
 #container
 {
@@ -223,15 +226,13 @@ border-radius: 5px 5px 5px 5px;
     -webkit-border-radius:5px 5px 5px 5px;
     behavior: url(PIE.htc);
 }
-
     
 .annim img {
   border-radius: 100%;  
-  height:50px;
-  width:50px;
+  width:50%;
   margin-top:10px;
   margin-bottom: 30px;
-  }  
+}  
 
 #ateliers
 {
@@ -270,6 +271,16 @@ border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
     -moz-border-radius : 5px 5px 5px 5px;
     -webkit-border-radius:5px 5px 5px 5px;*/
+}
+
+.tab-content > .tab-pane {
+  display: none;
+  visibility: hidden;
+}
+
+.tab-content > .active {
+  display: block;
+  visibility: visible;
 }
 
 #contact h1
