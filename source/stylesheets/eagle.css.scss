@@ -5,9 +5,7 @@
 }
 /**************************************************/
 
-@media(max-width: 500px) {
-  content: attr(data-title);   
-}
+
 
   
 h1,h2,h3,nav
@@ -16,20 +14,15 @@ h1,h2,h3,nav
 }
 
 body{
-  font-family: "Champ", verdana, arial;
-  src:url ("Champ.ttf");
+  font-family: garamond,verdana,arial;
 	font-size: 15px;
   background-color: #FFF4FF;
-  color:#0B0C0D;
+  color:#626262 ;
 }
 
 h1
  {
   color: #094030;
-  border-radius: 5px 5px 5px 5px;
-  -moz-border-radius : 5px 5px 5px 5px;
-  -webkit-border-radius:5px 5px 5px 5px;
-  behavior: url(PIE.htc);
   text-align: center;
   font-size: 28px;
   font-weight: 700;
@@ -42,72 +35,95 @@ h2
   font-weight: 700;
 }
 
-#container
-{
-  padding-right: 35px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: yellow;
+#presentation
+ {
+  margin-top: 50px;
+  text-align: justify; 
+    h2{
+      color: #145940;
+      text-align: center;
+    }
 }
 
+#association 
+{
+  font-family: garamond, verdana, arial;
+  text-align: center;
+  background-color: #A8D9A0;
+  font-size: 15px;
+}
 
+#bureau 
+{
+    background : url('../images/London.jpg') no-repeat;
+    text-align: center;
+    color: #FFF;
+    width: 0 auto;
+    opacity: 0.7;  
+    z-index: 3;                    
+  }
+    
+.annim1 img 
+{
+  border-radius: 100%;
+  height:50px;
+  width:50px;
+  margin-top:10px;
+  }  
+
+.annim2 img 
+{
+  border-radius: 100%;
+  height:50px;
+  width:50px;
+  margin-top:10px;
+}
+
+.annim3 img
+{   
+  border-radius:100%;
+  height:50px;
+  width:50px;
+  margin-top:10px;   
+  }
+
+#ateliers{
+  font-size: 15px;
+  }
+
+.soustitre{
+  color: #094030;
+}
 
 .logo
 {
-  width: 50%;
+  position: fixed;
+  width: 30%;
   height: auto;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
-/*
-.navbar
-{
 
-  font-family: "Kraskarioitalic";
-  font-size: 20px;
-  z-index: 1;
-  border: none;
-  padding: 0px;
-  box-shadow: 0px 6px 6px #242424;
-  height: 35px;
-  opacity: 0.5;
+.navbar-default
+{
+  background-color: #A8D9A0;
 }
 
 .nav
 {
-  
-  margin-top: 0px;
+  background-color: #A8D9A0 !important;
+  color:#626262;
+  font-family: "Kraskarioitalic";
+  font-size: 24px;
+  height: 35px;
 }
 
-.navbar-brand
-{
-  
-  margin-right: 10px;
-}
-
-/*
-.navbar-brand
-{
-  height: 5px;
-  padding-top: 3px;
-  padding-bottom: 0px;
-}
-
-.navbar li
-{
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.navbar-header
-{
-  height: 100%;
-  width: 100%;
-}*/
 
 /* nav
-{ 
+{
+  z-index: 1;
+  position: fixed;
+  display: inline-block;
   width: 100%;
   box-shadow: 0px 6px 6px #242424;
   margin-bottom: 20px;
@@ -116,8 +132,6 @@ h2
 a 
 {
   color: #181818;
-  display: inline-block;
-  color: #0C0B0D;
   padding-bottom: 4px;
 }
 
@@ -126,145 +140,11 @@ nav a:hover
   color: #46A667;
 }*/
 
-  /*color: #0C0B0D;
-}*/
-
-/*.contact
-{
-  margin-right: 15px;
-  margin-left: 70px;
-  font-size: 22px;
-  background-color: red;  
-  height: 35px;
-  margin-top: 10px;
-}*/
-  
-/*li img
-{
-  width: 100px;
-}*/
-
-#presentation {
-background-color:#A8D9A0;
-border-radius: 5px 5px 5px 5px;
-  -moz-border-radius : 5px 5px 5px 5px;
-  -webkit-border-radius:5px 5px 5px 5px;
-  behavior: url(PIE.htc);
-  margin-top: 70px;
-  text-align: justify;
-}
-
-
-#pedagogie{
-  margin-top: 50px;  
-  border-radius: 5px 5px 5px 5px;
-  -moz-border-radius : 5px 5px 5px 5px;
-  -webkit-border-radius:5px 5px 5px 5px;
-  behavior: url(PIE.htc);
-  background-color: #C4C4C4;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-right: 20px;
-  margin-left: 20px
-}
-
-#bureau 
-{
-  background-image :url("/images/London1.jpg");
-  background-size: 100%;    
-  background-repeat: no-repeat; 
-  background-attachment: local;
-  -webkit-background-size : cover; 
-  -moz-background-size : cover; 
-  -o-background-size : cover; 
-  background-size : cover; 
-  background-position : center;  
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
-    behavior: url(PIE.htc);
-  text-align: center;    
-  opacity: 0.7;    
-  z-index: 3;
-  margin-top: 50px;
-  color: #0C0B0D;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-right: 20px;
-  margin-left: 20px
-  /*text-align: center; */
-  }
-
-#equipe
-{
-  margin-top: 50px;
-  margin-right: 20px;
-  margin-left: 20px;
-  background-color: #C4C4C4;
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
-    behavior: url(PIE.htc);
-}
-
-    
-.annim img {
-  border-radius: 100%;  
-  height:50px;
-  width:50px;
-  margin-top:10px;
-  margin-bottom: 30px;
-  }  
-
-#ateliers
-{
-  color: #0C0B0D;
-  font-family: garamond, verdana, arial;  
-  font-size: 15px;  
-  background-color: #C4C4C4;
-  margin-top:50px; 
-  margin-right: 20px;
-  margin-left: 20px;   
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
-    behavior: url(PIE.htc);
-}
-
-#atpetits{
-  font-family: garamond, verdana, arial;
-}
-
-#atprimaire{
-    font-family: garamond, verdana, arial;
-}
-
-#atadultes{
-  font-family: garamond, verdana, arial;
-}
-
-#planning h1
-{
-  background-color: #C68A540;
-  /*margin-top: 50px;
-  margin-right: 20px;
-  margin-left: 20px;
-  background-color: #C4C4C4;
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;*/
-}
-
-#contact h1
-{ 
-    margin-top: 50px;
-  }
-
 .mailto
 {  
   font-family: "Kraskarioitalic";
   font-size: 22px;
-  color: #0C0B0D;
+  color: #96503C;
   text-align: center;
   background-color:#A8D9A0;
   width: 100%;
@@ -275,7 +155,7 @@ border-radius: 5px 5px 5px 5px;
 
 .mailto:hover
 {
-  color: #0C0B0D;
+  color: #46A667;
 }
 
 .boite
@@ -302,40 +182,40 @@ border-radius: 5px 5px 5px 5px;
 
 #Rna
 {
-    font-size:11px;
+    font-size:10px;
 }
 
-.adresses {  
-  margin-top: 50px;
-  color: #0C0B0D; 
-  padding: 15px;
-  margin-top: 20px;
+.adresse {
+  padding-top: 35px;
+  &:hover {
+    background-color: red;
+  }
 }
 
 .carte{
-  background-color: #816A82;  
   margin-bottom: 50px;
-  width: 120%;
-  }
+  width: 100%;
+}
 
-.responsive-table-line
- {
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
-    behavior: url(PIE.htc);
-  text-align: left;  
-    tbody > tr > td, thead > tr > th, table {
-    border: 2px solid black;
+.table_planning{
+  border: 2px solid black;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .responsive-table-line table,
+  .responsive-table-line thead,
+  .responsive-table-line tbody,
+  .responsive-table-line th,
+  .responsive-table-line td,
+  .responsive-table-line tr {
+  display: block;
   }
 }
 
-.bulle
-{
-  background-color: white;
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
-    behavior: url(PIE.htc);
+#membres{
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
 }
 
