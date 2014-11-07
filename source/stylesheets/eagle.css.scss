@@ -1,7 +1,23 @@
 /**********************police**********************/
-@font-face{
-	font-family: "Kraskarioitalic";
+@font-face {
+	font-family: "Kraskario";
 	src:url("Kraskarioitalic.ttf"); 
+        font-style: italic;
+}
+@font-face {
+	font-family: "Kraskario";
+	src:url("Kraskario.ttf"); 
+        font-style: normal;
+}
+@font-face {
+	font-family: "OpenSans";
+	src:url("OpenSans-Regular.ttf"); 
+        font-weight: 400;
+}
+@font-face {
+	font-family: "OpenSans";
+	src:url("OpenSans-Bold.ttf"); 
+        font-weight: 700;
 }
 /**************************************************/
 
@@ -10,36 +26,39 @@
 }
 
   
-h1,h2,h3,nav
-{
-  font-family: "Kraskarioitalic";
+h1,h2,h3 {
+  font-family: "Kraskario", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
-body{
-  font-family: "Champ", verdana, arial;
-  src:url ("Champ.ttf");
-	font-size: 15px;
+nav {
+  font-family: "OpenSans", verdana, arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+body {
+  font-family: "OpenSans", verdana, arial, sans-serif;
+  font-size: 15px;
   background-color: #FFF4FF;
   color:#0B0C0D;
 }
 
-h1
- {
+h1  {
   color: #094030;
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius : 5px 5px 5px 5px;
   -webkit-border-radius:5px 5px 5px 5px;
   behavior: url(PIE.htc);
   text-align: center;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 42px;
   margin-bottom: 25px;
 }
 
-h2
- {
-  font-size: 25px;
-  font-weight: 700;
+h2 {
+  font-size: 33px;
 }
 
 #container
@@ -50,8 +69,6 @@ h2
   margin-left: auto;
   background-color: yellow;
 }
-
-
 
 .logo
 {
