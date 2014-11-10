@@ -21,8 +21,10 @@
 
   <div class="row">
     <div class="enhaut">
-
-      <div class="col-sm-5">
+      <div class="col-xs-12 grand-logo">
+        <%= image_tag 'eagle_stars.png' %>
+      </div>
+      <div class="col-sm-6">
 
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
@@ -34,17 +36,17 @@
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                      <img src="images/PhotoPageHomePage.JPG" class="img-responsive" alt="some_text">
+                      <%= image_tag 'gallerie_groupe_enfants.jpg', class: 'img-responsive', alt: "Groupe d'enfants" %>
                       <div class="carousel-caption">
                       </div>
                     </div>
                     <div class="item">
-                      <img src="images/C2.jpg" alt="some_text">
+                      <%= image_tag 'gallerie_groupe_adultes.jpg', class: 'img-responsive', alt: "Groupe d'adultes" %>
                       <div class="carousel-caption">
                       </div>
                     </div>
                     <div class="item">
-                      <img src="images/ToursEnSavoie201406.jpg" alt="some_text">
+                      <%= image_tag 'gallerie_livres.jpg', class: 'img-responsive', alt: "Livres éducatifs" %>
                       <div class="carousel-caption">
                       </div>
                     </div>
@@ -62,7 +64,7 @@
 
       </div>
 
-      <div class="col-sm-6 col-md-offset-1">
+      <div class="col-sm-6">
         <%= partial "presentation" %>
       </div>
 
