@@ -21,6 +21,18 @@
 }
 /**************************************************/
 
+$vert-dynamique: #A8E956;
+$soft-color: #FBFFCA;
+
+@mixin soft-background {
+  background-color: $soft-color;
+  border: 1px solid #F5F8A7;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius : 5px 5px 5px 5px;
+  -webkit-border-radius:5px 5px 5px 5px;
+  behavior: url(PIE.htc);
+}
+
 @media(max-width: 500px) {
   content: attr(data-title);   
 }
@@ -43,6 +55,7 @@ body {
   font-family: "OpenSans", verdana, arial, sans-serif;
   font-size: 15px;
   background-image: url(../images/texturecrossword.png);
+  background-attachment: fixed;
   padding-top: -20px;
 }
 
@@ -79,7 +92,7 @@ h3 {
 }
 
 .index .navbar-default {
-    background-image: linear-gradient(to bottom, #A6D99E 0px, #A6D99E 100%);
+    background-image: linear-gradient(to bottom, $vert-dynamique 0px, $vert-dynamique 100%);
     background-repeat: repeat-x;
     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 5px rgba(0, 0, 0, 0.075);
 }
@@ -103,7 +116,7 @@ footer {
 }
 
 #presentation {
-background-color:#A8D9A0;
+background-color: $vert-dynamique;
 border-radius: 5px 5px 5px 5px;
   -moz-border-radius : 5px 5px 5px 5px;
   -webkit-border-radius:5px 5px 5px 5px;
@@ -114,20 +127,15 @@ border-radius: 5px 5px 5px 5px;
 
 
 #pedagogie{
-  margin-top: 0px;  
-  border-radius: 5px 5px 5px 5px;
-  -moz-border-radius : 5px 5px 5px 5px;
-  -webkit-border-radius:5px 5px 5px 5px;
-  behavior: url(PIE.htc);
-  background-color: #C4C4C4;
-  padding-right: 20px;
+  @include soft-background;
+  margin-top: 0px;
+    padding-right: 20px;
   padding-left: 20px;
   margin-right: 20px;
   margin-left: 20px
 }
 
-#bureau 
-{
+#bureau {
   background-image :url("/images/London1.jpg");
   background-size: 100%;    
   background-repeat: no-repeat; 
@@ -150,19 +158,13 @@ border-radius: 5px 5px 5px 5px;
   padding-right: 50px;
   margin-right: 20px;
   margin-left: 20px
-  /*text-align: center; */
-  }
+}
 
-#equipe
-{
+#equipe {
+  @include soft-background;
   margin-top: 50px;
   margin-right: 20px;
   margin-left: 20px;
-  background-color: #C4C4C4;
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
-    behavior: url(PIE.htc);
 }
     
 .annim img {
@@ -172,19 +174,13 @@ border-radius: 5px 5px 5px 5px;
   margin-bottom: 30px;
 }  
 
-#ateliers
-{
+#ateliers {
+  @include soft-background;
   color: #0C0B0D;
-  font-family: garamond, verdana, arial;  
   font-size: 15px;  
-  background-color: #C4C4C4;
   margin-top:50px; 
   margin-right: 20px;
   margin-left: 20px;   
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
-    behavior: url(PIE.htc);
 }
 
 #atpetits{
@@ -201,14 +197,13 @@ border-radius: 5px 5px 5px 5px;
 
 #planning h1
 {
-  background-color: #C68A540;
-  /*margin-top: 50px;
+  margin-top: 50px;
   margin-right: 20px;
   margin-left: 20px;
-  background-color: #C4C4C4;
+  background-color: $soft-color;
   border-radius: 5px 5px 5px 5px;
     -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;*/
+    -webkit-border-radius:5px 5px 5px 5px;
 }
 
 #contact h1
