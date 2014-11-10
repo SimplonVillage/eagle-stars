@@ -23,10 +23,11 @@
 
 $vert-dynamique: #A8E956;
 $soft-color: #FBFFCA;
+$soft-border-color: #ECF164;
 
 @mixin soft-background {
   background-color: $soft-color;
-  border: 1px solid #F5F8A7;
+  border: 1px solid $soft-border-color;
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius : 5px 5px 5px 5px;
   -webkit-border-radius:5px 5px 5px 5px;
@@ -54,8 +55,7 @@ nav {
 body {
   font-family: "OpenSans", verdana, arial, sans-serif;
   font-size: 15px;
-  background-image: url(../images/texturecrossword.png);
-  background-attachment: fixed;
+  background-image: url(../images/noisy-grey.png);
   padding-top: -20px;
 }
 
@@ -195,15 +195,11 @@ border-radius: 5px 5px 5px 5px;
   font-family: garamond, verdana, arial;
 }
 
-#planning h1
-{
+#planning h1 {
+  @include soft-background;
   margin-top: 50px;
   margin-right: 20px;
   margin-left: 20px;
-  background-color: $soft-color;
-  border-radius: 5px 5px 5px 5px;
-    -moz-border-radius : 5px 5px 5px 5px;
-    -webkit-border-radius:5px 5px 5px 5px;
 }
 
 #contact h1
@@ -264,10 +260,17 @@ border-radius: 5px 5px 5px 5px;
 #adresses {  
   margin-bottom: 50px;
   padding: 15px;
+  .img-thumbnail {
+    border-color: $soft-border-color;
+  }
+}
+
+address {
+  margin-bottom: 50px;
 }
 
 .carte {
-  background-color: #816A82;  
+  background-color: $soft-color;  
   width: 100%;
   }
 
