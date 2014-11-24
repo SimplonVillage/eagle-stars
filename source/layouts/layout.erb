@@ -15,73 +15,34 @@
 </head>
 
 <body class="<%= page_classes %>">
-<div class="container">
 
-<%= partial"navbar"%>
+  <%= partial"navbar"%>
 
-  <div class="row">
+  <div class="container">
+
     <div class="enhaut">
       <div class="col-xs-12 grand-logo hidden-xs">
         <%= image_tag 'eagle_stars.png' %>
       </div>
-      <div class="col-sm-6">
+        <div class="col-sm-8">
+          <%= partial "carousel" %>
+        </div>
+        <div class="col-sm-4">
+          <%= partial "presentation" %>
+        </div>
+      <%= partial"pedagogie"%>
+    </div>
 
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="11"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="22"></li>
-                  </ol>
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <%= image_tag 'gallerie_groupe_enfants.jpg', class: 'img-responsive', alt: "Groupe d'enfants" %>
-                      <div class="carousel-caption">
-                      </div>
-                    </div>
-                    <div class="item">
-                      <%= image_tag 'gallerie_groupe_adultes.jpg', class: 'img-responsive', alt: "Groupe d'adultes" %>
-                      <div class="carousel-caption">
-                      </div>
-                    </div>
-                    <div class="item">
-                      <%= image_tag 'gallerie_livres.jpg', class: 'img-responsive', alt: "Livres éducatifs" %>
-                      <div class="carousel-caption">
-                      </div>
-                    </div>
+    <div class="yield">
+      <%= yield %>
+    </div>
 
-                  </div>
-
-                  <!-- Controls -->
-                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                  </a>
-                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                  </a>
-                </div>
-
-      </div>
-
-      <div class="col-sm-6">
-        <%= partial "presentation" %>
-      </div>
-
-    </div><!--row -->
-
-  <div class="yield">
-    <%= yield %>
-  </div>
-
-</div><!--container sous body-->
-<br>
+  </div><!--container sous body-->
 
   <footer class="container">
       <div class="pull-left">Association Loi 1901 - R.N.A W613001181</div>
       <div class="pull-right">&copy;2014 Eagle Stars</div>
   </footer>
-
 
   <script src="../javascripts/jquery-1.11.1.min.js" type="text/javascript"></script>
   <script src="../javascripts/bootstrap.min.js" type="text/javascript"></script>

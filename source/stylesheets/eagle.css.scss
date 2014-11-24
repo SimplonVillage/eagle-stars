@@ -22,8 +22,8 @@
 /**************************************************/
 
 $vert-dynamique: #C8F992;
-$soft-color: #FBFFCA;
-$soft-border-color: #ECF164;
+$soft-color: #FFFFE4;
+$soft-border-color: #F4DA88;
 
 @mixin soft-background {
   background-color: $soft-color;
@@ -32,6 +32,15 @@ $soft-border-color: #ECF164;
   -moz-border-radius : 5px 5px 5px 5px;
   -webkit-border-radius:5px 5px 5px 5px;
   behavior: url(PIE.htc);
+}
+
+@mixin green-background {
+  background-color: $vert-dynamique;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius : 5px 5px 5px 5px;
+  -webkit-border-radius:5px 5px 5px 5px;
+  behavior: url(PIE.htc);
+  border: 1px solid darken($vert-dynamique, 15%);
 }
 
 @media(max-width: 500px) {
@@ -104,33 +113,37 @@ h3 {
 }
 
 .enhaut {
+  @include soft-background;
   padding-top: 45px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .grand-logo {
   padding: 0 40px;
   img {
-    width: 100%;
+    width: 80%;
+    display: block;
+    margin: auto;
   }
 }
 
 #presentation {
-  background-color: $vert-dynamique;
-  border-radius: 5px 5px 5px 5px;
-  -moz-border-radius : 5px 5px 5px 5px;
-  -webkit-border-radius:5px 5px 5px 5px;
-  behavior: url(PIE.htc);
-  border: 1px solid darken($vert-dynamique, 15%);
-  margin-top: 13px;
+  @include green-background;
+  padding: 0 15px;
+  margin-top: 45px;
 }
 
 #pedagogie-section {
-  @include soft-background;
   margin-top: 0px;
-    padding-right: 20px;
+  padding-right: 20px;
   padding-left: 20px;
   margin-right: 20px;
-  margin-left: 20px
+  margin-left: 20px;
+  list-style: square;
+  li {
+    margin-bottom: 15px;
+  }
 }
 
 #pedagogie {
@@ -151,13 +164,11 @@ h3 {
     -moz-border-radius : 5px 5px 5px 5px;
     -webkit-border-radius:5px 5px 5px 5px;
     behavior: url(PIE.htc);
-  text-align: center;
   opacity: 0.7;
   z-index: 3;
   margin-top: 30px;
   color: #0C0B0D;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 20px 20px;
   margin-right: 20px;
   margin-left: 20px
 }
@@ -177,6 +188,8 @@ h3 {
 }
 
 .recruit {
+  @include green-background;
+  padding: 10px 5px;
   margin: 25px 0
 }
 
@@ -188,11 +201,23 @@ h3 {
   padding-top: 40px;
 }
 
-#planning h1 {
+#planning {
   @include soft-background;
-  margin-top: 50px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 30px 20px 0;
+  padding-top: 40px;
+  h2 {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+  }
+  .notice {
+    @include green-background;
+    list-style: square;
+    margin: 15px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 #contact h1 {
@@ -242,11 +267,27 @@ address {
 }
 
 .bulle {
+  margin-bottom: 20px;
+  padding: 10px;
   background-color: white;
   border-radius: 5px 5px 5px 5px;
     -moz-border-radius : 5px 5px 5px 5px;
     -webkit-border-radius:5px 5px 5px 5px;
     behavior: url(PIE.htc);
+  h1 {
+    margin: 0;
+  }
+  h2 {
+    margin-top: 0;
+  }
+  p {
+    margin-bottom: 0; 
+  }
+}
+
+.titre {
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 footer {

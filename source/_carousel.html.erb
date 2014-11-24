@@ -1,0 +1,29 @@
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="11"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="22"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <%= image_tag 'gallerie_groupe_enfants.jpg', class: 'img-responsive', alt: "Groupe d'enfants" %>
+    </div>
+    <div class="item">
+      <%= image_tag 'gallerie_groupe_adultes.jpg', class: 'img-responsive', alt: "Groupe d'adultes" %>
+    </div>
+    <div class="item">
+      <%= image_tag 'gallerie_livres.jpg', class: 'img-responsive', alt: "Livres éducatifs" %>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- end carousel -->
+
