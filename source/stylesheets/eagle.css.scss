@@ -22,8 +22,8 @@
 /**************************************************/
 
 $vert-dynamique: #C8F992;
-$soft-color: #FFFFE4;
-$soft-border-color: #F4DA88;
+$soft-color: #FFFFFF;
+$soft-border-color: $vert-dynamique;
 
 @mixin soft-background {
   background-color: $soft-color;
@@ -63,7 +63,7 @@ nav {
 body {
   font-family: "OpenSans", verdana, arial, sans-serif;
   font-size: 15px;
-  background-image: url(../images/noisy-grey.png);
+  background-image: url(../images/bandes_fond.jpg);
   padding-top: -20px;
 }
 
@@ -154,7 +154,7 @@ h3 {
 }
 
 #bureau {
-  background-image :url("/images/London1.jpg");
+  background-image :url("/images/fond_bureau.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: local;
@@ -167,7 +167,6 @@ h3 {
     -moz-border-radius : 5px 5px 5px 5px;
     -webkit-border-radius:5px 5px 5px 5px;
     behavior: url(PIE.htc);
-  opacity: 0.7;
   z-index: 3;
   margin-top: 30px;
   color: #0C0B0D;
@@ -187,7 +186,7 @@ h3 {
   width:50%;
   margin-top:10px;
   margin-bottom: 30px;
-  border: 6px solid #F3B36A;
+  border: 8px solid $vert-dynamique;
 }
 
 .recruit {
@@ -224,7 +223,10 @@ h3 {
 }
 
 #contact h1 {
-    margin-top: 50px;
+  margin-top: 50px;
+  .background {
+    @include soft-background;
+  }
 }
 
 #carousel-example-generic {
@@ -277,6 +279,7 @@ address {
     -moz-border-radius : 5px 5px 5px 5px;
     -webkit-border-radius:5px 5px 5px 5px;
     behavior: url(PIE.htc);
+  border: 1px solid $vert-dynamique;
   h1 {
     margin: 0;
   }
@@ -284,7 +287,7 @@ address {
     margin-top: 0;
   }
   p {
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
 }
 
