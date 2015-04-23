@@ -107,6 +107,14 @@ h3 {
   box-shadow:         0px 2px 4px 0px rgba(50, 50, 50, 0.5);
 }
 
+.nous .navbar-default {
+  background-color: $vert-dynamique;
+  background-image: none;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow:    0px 2px 4px 0px rgba(50, 50, 50, 0.5);
+  box-shadow:         0px 2px 4px 0px rgba(50, 50, 50, 0.5);
+}
+
 .navbar-fixed-top {
   top: 0px;
   border-width: 0px 0px 0px;
@@ -201,6 +209,31 @@ h3 {
   font-size: 15px;
   margin: 30px 20px 0;
   padding-top: 40px;
+  .notice {
+    @include green-background;
+    list-style: square;
+    margin: 15px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+#nous {
+  @include soft-background;
+  color: #0C0B0D;
+  font-size: 15px;
+  margin: 30px 20px 0;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  h2 {
+    text-align: center;
+  }
+  .well{
+    @include green-background;
+    background-color: #C8F992;
+    background-image: none;
+    padding: 20px;
+  }
 }
 
 #planning {
